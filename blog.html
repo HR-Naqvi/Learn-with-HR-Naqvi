@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details - Learn with HR Naqvi</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/blogs.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* ========================================
+           BLOG DETAIL PAGE STYLES
+           ======================================== */
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f9fafb;
+            margin: 0; 
+            padding: 20px;
+            color: #111827;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            min-height: 100vh;
+        }
+        
+        .back-link {
+            margin-bottom: 20px;
+            display: inline-block;
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .blog-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.2rem;
+            font-weight: 700;
+            color: #1f2937;
+            line-height: 1.2;
+        }
+        
+        .blog-category {
+            display: inline-block;
+            background-color: #3b82f6;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+        
+        .blog-meta {
+            color: #6b7280;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .blog-content {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0; 
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        
+        .video-overlay {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+        }
+        
+        .youtube-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 0, 0, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        
+        .youtube-link:hover {
+            background: #ff0000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+            text-decoration: none;
+            color: white;
+        }
+        
+        .youtube-link i {
+            font-size: 16px;
+        }
+        
+        .no-blog {
+            text-align: center;
+            margin-top: 100px;
+            color: #9ca3af;
+        }
+        
+        /* Blog Post Content Styles */
+        .blog-post {
+            max-width: 900px;
+            margin: 28px auto;
+            padding: 26px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 6px 22px rgba(0,0,0,0.06);
+            font-family: "Inter", Roboto, Arial, sans-serif;
+            color: #111;
+        }
+        
+        .post-title {
+            font-size: 26px;
+            margin: 6px 0 8px;
+            color: #0b4a7a;
+            font-weight: 700;
+        }
+        
+        .post-excerpt {
+            color: #394051;
+            margin-bottom: 18px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        
+        .post-content h2 {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #0b3b58;
+            font-weight: 600;
+        }
+        
+        .post-content p, 
+        .post-content li {
+            line-height: 1.75;
+            margin: 10px 0;
+            font-size: 15px;
+        }
+        
+        .post-content ol, 
+        .post-content ul {
+            margin-left: 20px;
+        }
+        
+        .post-footer {
+            margin-top: 20px;
+            border-top: 1px solid #eef0f2;
+            padding-top: 12px;
+            color: #6b7280;
+            font-size: 14px;
+        }
+        
+        .post-content a {
+            color: #0b66a3;
+            text-decoration: none;
+        }
+        
+        .post-content a:hover {
+            text-decoration: underline;
+        }
+        
+        /* ========================================
+           RESPONSIVE DESIGN
+           ======================================== */
+        
+        @media (max-width: 575.98px) {
+            body {
+                padding: 10px;
+            }
+            
+            .back-link {
+                font-size: 0.9rem;
+                margin-bottom: 15px;
+            }
+            
+            .blog-title {
+                font-size: 1.6rem;
+                line-height: 1.3;
+                margin-bottom: 0.5rem;
+            }
+            
+            .blog-category {
+                font-size: 0.7rem;
+                padding: 3px 8px;
+                margin-bottom: 8px;
+            }
+            
+            .blog-meta {
+                font-size: 0.8rem;
+                margin-bottom: 15px;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .blog-content {
+                font-size: 1rem;
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+            
+            .video-container {
+                margin-bottom: 30px;
+                border-radius: 8px;
+            }
+            
+            .video-overlay {
+                top: 5px;
+                right: 5px;
+            }
+            
+            .youtube-link {
+                padding: 6px 10px;
+                font-size: 12px;
+            }
+            
+            .youtube-link i {
+                font-size: 14px;
+            }
+            
+            .blog-post {
+                padding: 20px;
+                margin: 20px auto;
+            }
+            
+            .post-title {
+                font-size: 1.4rem;
+                line-height: 1.3;
+            }
+            
+            .post-excerpt {
+                font-size: 0.9rem;
+                margin-bottom: 15px;
+            }
+            
+            .post-content h2 {
+                font-size: 1.2rem;
+                margin-top: 15px;
+            }
+            
+            .post-content p,
+            .post-content li {
+                font-size: 0.9rem;
+                line-height: 1.6;
+            }
+            
+            .post-footer {
+                font-size: 0.8rem;
+                margin-top: 15px;
+            }
+        }
+        
+        @media (min-width: 576px) and (max-width: 767.98px) {
+            body {
+                padding: 15px;
+            }
+            
+            .blog-title {
+                font-size: 2rem;
+            }
+            
+            .blog-category {
+                font-size: 0.8rem;
+                padding: 4px 10px;
+            }
+            
+            .blog-meta {
+                font-size: 0.85rem;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .blog-content {
+                font-size: 1.05rem;
+            }
+            
+            .video-container {
+                margin-bottom: 35px;
+            }
+            
+            .blog-post {
+                padding: 25px;
+            }
+            
+            .post-title {
+                font-size: 1.6rem;
+            }
+            
+            .post-content h2 {
+                font-size: 1.3rem;
+            }
+        }
+        
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            body {
+                padding: 20px;
+            }
+            
+            .blog-title {
+                font-size: 2.2rem;
+            }
+            
+            .blog-category {
+                font-size: 0.85rem;
+                padding: 4px 12px;
+            }
+            
+            .blog-meta {
+                font-size: 0.9rem;
+            }
+            
+            .blog-content {
+                font-size: 1.1rem;
+            }
+            
+            .video-container {
+                margin-bottom: 40px;
+            }
+            
+            .blog-post {
+                padding: 30px;
+            }
+            
+            .post-title {
+                font-size: 1.8rem;
+            }
+            
+            .post-content h2 {
+                font-size: 1.4rem;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            body {
+                padding: 20px;
+            }
+            
+            .blog-title {
+                font-size: 2.5rem;
+            }
+            
+            .blog-category {
+                font-size: 0.9rem;
+                padding: 4px 12px;
+            }
+            
+            .blog-meta {
+                font-size: 0.9rem;
+            }
+            
+            .blog-content {
+                font-size: 1.1rem;
+            }
+            
+            .video-container {
+                margin-bottom: 40px;
+            }
+            
+            .blog-post {
+                padding: 30px;
+            }
+            
+            .post-title {
+                font-size: 2rem;
+            }
+            
+            .post-content h2 {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (orientation: landscape) and (max-height: 500px) {
+            body {
+                padding: 10px;
+            }
+            
+            .blog-title {
+                font-size: 1.8rem;
+                margin-bottom: 0.5rem;
+            }
+            
+            .blog-meta {
+                margin-bottom: 10px;
+            }
+            
+            .blog-content {
+                margin-bottom: 15px;
+            }
+            
+            .video-container {
+                margin-bottom: 20px;
+            }
+        }
+        
+        @media print {
+            body {
+                background: white !important;
+                color: black !important;
+                padding: 0;
+                max-width: none;
+            }
+            
+            .back-link,
+            .video-container,
+            .youtube-link {
+                display: none !important;
+            }
+            
+            .blog-title,
+            .post-title {
+                color: black !important;
+                text-shadow: none !important;
+            }
+            
+            .blog-post {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Back Link -->
+    <a href="blogs.html" class="back-link">
+        <i class="fas fa-arrow-left"></i> Back to Blogs
+    </a>
+
+    <!-- Blog Details Container -->
+    <div id="blog-details">
+        <div class="loading-blogs">
+            <div class="blogs-spinner"></div>
+            <p>Loading blog post...</p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./js/blog-data.js"></script>
+    <script>
+        // ========================================
+        // BLOG DETAIL PAGE FUNCTIONALITY
+        // ========================================
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            loadBlogDetails();
+        });
+        
+        function loadBlogDetails() {
+            const blogId = getBlogIdFromURL();
+            const blog = window.BlogData.getBlogPostById(blogId);
+            
+            if (!blog) {
+                showBlogNotFound();
+                return;
+            }
+            
+            renderBlogDetails(blog);
+        }
+        
+        function getBlogIdFromURL() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('id');
+        }
+        
+        function renderBlogDetails(blog) {
+            const container = document.getElementById('blog-details');
+            const categoryInfo = window.BlogData.getCategoryInfo(blog.category);
+            
+            // Format video URL for embedding
+            let videoEmbedUrl = '';
+            if (blog.videoId) {
+                if (blog.videoId.includes('youtu.be/')) {
+                    const videoId = blog.videoId.split('youtu.be/')[1].split('?')[0];
+                    videoEmbedUrl = `https://www.youtube.com/embed/${videoId}`;
+                } else if (blog.videoId.includes('youtube.com/watch?v=')) {
+                    const videoId = blog.videoId.split('v=')[1].split('&')[0];
+                    videoEmbedUrl = `https://www.youtube.com/embed/${videoId}`;
+                } else {
+                    videoEmbedUrl = `https://www.youtube.com/embed/${blog.videoId}`;
+                }
+            }
+            
+            container.innerHTML = `
+                <div class="blog-category">${categoryInfo ? categoryInfo.name : blog.category}</div>
+                <h1 class="blog-title">${blog.title}</h1>
+                <div class="blog-meta">
+                    <span>Published on ${formatDate(blog.publishedAt)}</span>
+                    <span>Views: ${blog.viewCount}</span>
+                    <span>Likes: ${blog.likeCount}</span>
+                </div>
+                <div class="blog-content">${blog.content}</div>
+                ${blog.videoId ? `
+                    <div class="video-container">
+                        <iframe 
+                            src="${videoEmbedUrl}" 
+                            title="${blog.title}" 
+                            allowfullscreen 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        ></iframe>
+                        <div class="video-overlay">
+                            <a href="${blog.videoId}" target="_blank" class="youtube-link">
+                                <i class="fab fa-youtube"></i>
+                                <span>Watch on YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                ` : ''}
+            `;
+        }
+        
+        function showBlogNotFound() {
+            const container = document.getElementById('blog-details');
+            container.innerHTML = `
+                <div class="no-blog">
+                    <i class="fas fa-exclamation-triangle" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h2>Blog Not Found</h2>
+                    <p>The blog post you're looking for doesn't exist or has been removed.</p>
+                    <a href="blogs.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">
+                        Browse All Blogs
+                    </a>
+                </div>
+            `;
+        }
+        
+        function formatDate(dateString) {
+            const date = new Date(dateString);
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            return date.toLocaleDateString(undefined, options);
+        }
+    </script>
+</body>
+</html>
