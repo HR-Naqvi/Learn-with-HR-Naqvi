@@ -1577,11 +1577,11 @@ git push -u origin main
     <h2>Weekly Overview</h2>
     <table>
       <tr><th>Day</th><th>Muscle Group</th></tr>
-      <tr><td>Monday</td><td>Chest + Triceps</td></tr>
-      <tr><td>Tuesday</td><td>Back + Biceps</td></tr>
-      <tr><td>Wednesday</td><td>Shoulders + Abs</td></tr>
-      <tr><td>Thursday</td><td>Quads + Hamstrings</td></tr>
-      <tr><td>Friday</td><td>Biceps + Triceps</td></tr>
+      <tr><td>Monday</td><td>  Chest + Triceps</td></tr>
+      <tr><td>Tuesday</td><td> Back + Biceps</td></tr>
+      <tr><td>Wednesday</td><td> Shoulders + Abs</td></tr>
+      <tr><td>Thursday</td><td> Quads + Hamstrings</td></tr>
+      <tr><td>Friday</td><td>  Biceps + Triceps</td></tr>
       <tr><td>Saturday</td><td>Rest / Cardio + Core (Optional)</td></tr>
       <tr><td>Sunday</td><td>Rest</td></tr>
     </table>
@@ -1651,7 +1651,7 @@ git push -u origin main
   </footer>
 </article>`,
     category: "fitness",
-    thumbnail: "images/blogs_images/weekly_workout.jpg",
+    thumbnail: "images/blogs_images/weekly_workout_plan.jpg",
     videoId: "",
     publishedAt: new Date(Date.now()).toISOString(),
     duration: "N/A",
