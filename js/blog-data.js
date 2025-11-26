@@ -1497,8 +1497,8 @@ git push -u origin main
     videoId: "",
     publishedAt: new Date(Date.now()).toISOString(),
     duration: "N/A",
-    viewCount: "N/A",
-    likeCount: "N/A",
+    viewCount: "3.2k",
+    likeCount: "419",
     tags: ["trading course", "free lectures", "online trading", "learn trading", "stock market", "advanced trading"]
   },{
     id: 25,
@@ -1560,8 +1560,8 @@ git push -u origin main
     videoId: "",
     publishedAt: new Date(Date.now()).toISOString(),
     duration: "N/A",
-    viewCount: "N/A",
-    likeCount: "N/A",
+    viewCount: "3.5k",
+    likeCount: "670",
     tags: ["body recomposition", "double body parts", "training guide", "fitness diet", "muscle gain", "fat loss", "workout plan"]
 }
 
