@@ -1574,17 +1574,29 @@ git push -u origin main
   </header>
 
   <section class="post-content">
-    <h2>Weekly Overview</h2>
-    <table>
-      <tr><th>Day</th><th>Muscle Group</th></tr>
-      <tr><td>Monday</td><td>  Chest + Triceps</td></tr>
-      <tr><td>Tuesday</td><td> Back + Biceps</td></tr>
-      <tr><td>Wednesday</td><td> Shoulders + Abs</td></tr>
-      <tr><td>Thursday</td><td> Quads + Hamstrings</td></tr>
-      <tr><td>Friday</td><td>  Biceps + Triceps</td></tr>
-      <tr><td>Saturday</td><td>Rest / Cardio + Core (Optional)</td></tr>
-      <tr><td>Sunday</td><td>Rest</td></tr>
-    </table>
+    <h2>📅 Weekly Overview</h2>
+
+<p><strong>Monday</strong><br>
+Chest + Triceps</p>
+
+<p><strong>Tuesday</strong><br>
+Back + Biceps</p>
+
+<p><strong>Wednesday</strong><br>
+Shoulders + Abs</p>
+
+<p><strong>Thursday</strong><br>
+Quads + Hamstrings</p>
+
+<p><strong>Friday</strong><br>
+Biceps + Triceps</p>
+
+<p><strong>Saturday</strong><br>
+Rest / Cardio + Core (Optional)</p>
+
+<p><strong>Sunday</strong><br>
+Rest</p>
+
 
     <h2>Day 1 – Chest + Triceps</h2>
     <ul>
