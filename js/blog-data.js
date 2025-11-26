@@ -1494,7 +1494,7 @@ git push -u origin main
 </article>`,
     category: "trading",
     thumbnail: "images/blogs_images/trading_course.png",
-    videoId: "https://drive.google.com/file/d/136S8QRVfOJsu7fRPSmeZjdyWOqTuofB3/view?usp=drivesdk",
+    videoId: "",
     publishedAt: new Date(Date.now()).toISOString(),
     duration: "N/A",
     viewCount: "N/A",
