@@ -1500,7 +1500,62 @@ git push -u origin main
     viewCount: "N/A",
     likeCount: "N/A",
     tags: ["trading course", "free lectures", "online trading", "learn trading", "stock market", "advanced trading"]
-  },
+  },{
+    id: 25,
+    title: "Body Recomposition Guide 2025 | Train Double Body Parts & Perfect Diet",
+    excerpt: "Gym me double body parts train karne ka step-by-step guide aur proper diet tips for effective body recomposition.",
+    content: `<article class="blog-post">
+  <header class="post-header">
+    <h1 class="post-title">Body Recomposition Guide 2025 | Train Double Body Parts & Perfect Diet</h1>
+    <p class="post-excerpt">Apni body ko fat lose aur muscle gain dono ke liye optimize karein! Is guide me aapko **double body parts train karne ke exercises aur diet tips** milege jo body recomposition me highly effective hain.</p>
+  </header>
+
+  <section class="post-content">
+    <h2>What is Body Recomposition?</h2>
+    <p>Body recomposition ka matlab hai **simultaneously fat lose aur muscle gain karna**. Ye approach traditional bulking ya cutting se alag hai aur **balanced training aur proper nutrition** par depend karta hai.</p>
+
+    <h2>Double Body Parts Training</h2>
+    <p>Gym me double body parts train karne ka fayda hai ke **muscle stimulation aur growth** dono maximize ho jata hai. Example schedule:</p>
+    <ul>
+      <li>💪 Chest + Triceps: Bench press + Dips + Dumbbell Fly + Tricep Pushdowns</li>
+      <li>💪 Back + Biceps: Pull-ups + Rows + Deadlifts + Barbell Curls</li>
+      <li>💪 Shoulders + Abs: Shoulder Press + Lateral Raises + Planks + Cable Crunches</li>
+      <li>💪 Legs + Calves: Squats + Lunges + Leg Press + Calf Raises</li>
+    </ul>
+    <p>Tip: **Compound movements** par focus karein aur **progressive overload** maintain karein. Training frequency: 4–5 days/week.</p>
+
+    <h2>Diet for Body Recomposition</h2>
+    <p>Diet ka role bahut important hai. Focus karein **protein intake, calorie control aur nutrient timing** par:</p>
+    <ul>
+      <li>🍗 Protein: Chicken, Eggs, Fish, Whey – 1.6–2.2g per kg body weight</li>
+      <li>🥦 Carbs: Brown rice, Oats, Sweet potatoes – Energy for workouts</li>
+      <li>🥑 Fats: Olive oil, Nuts, Avocado – Hormonal support</li>
+      <li>🥗 Vegetables & Fruits: Fiber, vitamins aur minerals</li>
+      <li>💧 Hydration: 2–3 liters water/day</li>
+    </ul>
+    <p>Tip: Meals ko **pre- and post-workout** properly plan karein. Example: Workout se 1–2 hours pehle carbs + protein, baad me high protein + moderate carbs.</p>
+
+    <h2>Advanced Personal Guidance</h2>
+    <p>Agar aap **customized training plan aur detailed diet** chahte hain, to WhatsApp par contact karein: <strong>+92-3107577184</strong>. Personalized guidance aapko **fast aur safe body recomposition** me help karegi.</p>
+
+    <h2>Conclusion</h2>
+    <p>Body recomposition achieve karne ke liye **consistent training, double body parts approach aur proper diet** zaruri hai. Start today aur apni **fat loss & muscle gain journey** boost karein! 💪</p>
+  </section>
+
+  <footer class="post-footer">
+    <p><strong>Tags:</strong> Body Recomposition, Double Body Parts Training, Gym Workouts, Fitness Diet, Muscle Gain, Fat Loss, Healthy Lifestyle, Workout Plan 2025</p>
+  </footer>
+</article>`,
+    category: "fitness",
+    thumbnail: "images/blogs_images/body_recomposition.jpeg",
+    videoId: "",
+    publishedAt: new Date(Date.now()).toISOString(),
+    duration: "N/A",
+    viewCount: "N/A",
+    likeCount: "N/A",
+    tags: ["body recomposition", "double body parts", "training guide", "fitness diet", "muscle gain", "fat loss", "workout plan"]
+}
+
 
 
 ];
