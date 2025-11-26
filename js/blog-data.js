@@ -46,11 +46,11 @@ AVAILABLE CATEGORIES:
 // BLOG POSTS DATA
 // ========================================
 const blogPosts = [
-    {
-        id: 1,
-        title: "How to Upload Free Website on Internet | Using GitHub Pages | Free Web Hosting 2025",
-        excerpt: "GitHub Pages se 100% free web hosting ka step-by-step guide. Apna portfolio, blog ya business site host karein aur custom domain connect karein – bilkul free!",
-        content: `<article class="blog-post">
+  {
+    id: 1,
+    title: "How to Upload Free Website on Internet | Using GitHub Pages | Free Web Hosting 2025",
+    excerpt: "GitHub Pages se 100% free web hosting ka step-by-step guide. Apna portfolio, blog ya business site host karein aur custom domain connect karein – bilkul free!",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">How to Upload Free Website on Internet | Using GitHub Pages | Free Web Hosting 2025</h1>
     <p class="post-excerpt">Web hosting par paise kharch karne ki zaroorat nahi! Is guide me aap seekhenge ke kaise apni <strong>website free me host</strong> kar sakte hain using <strong>GitHub Pages</strong> – chahe woh portfolio ho, blog ho ya business website.</p>
@@ -116,19 +116,19 @@ const blogPosts = [
     <p><strong>Tags:</strong> Free Web Hosting, GitHub Pages Tutorial, Custom Domain Guide, Free Hosting 2025, Upload Website Free, Student Portfolio Hosting, Host Website on GitHub, Learn Coding, Web Development Tutorial</p>
   </footer>
 </article>`
-        , category: "programming",
-        thumbnail: "images/blogs_images/website_upload.jpg",
-        videoId: "https://youtu.be/ppBI0QWty54?si=sSFUySxo2kgy7IJC",
-        publishedAt: new Date(Date.now() - 3600000).toISOString(),
-        duration: "10:45",
-        viewCount: "4.5K",
-        likeCount: "300",
-        tags: ["free hosting", "github pages", "custom domain", "website upload", "students", "freelancers"]
-    }, {
-        id: 2,
-        title: "CM Punjab Green Tractor Scheme 2025 Phase 2 – Apply Online with 70% Subsidy",
-        excerpt: "Punjab Government ne CM Punjab Green Tractor Scheme 2025 Phase 2 launch kar di hai jisme kisano ko 70% subsidy ke sath tractors provide kiye ja rahe hain. Is blog me eligibility, documents, apply process, subsidy details aur FAQs hain.",
-        content: `<article class="blog-post">
+    , category: "programming",
+    thumbnail: "images/blogs_images/website_upload.jpg",
+    videoId: "https://youtu.be/ppBI0QWty54?si=sSFUySxo2kgy7IJC",
+    publishedAt: new Date(Date.now() - 3600000).toISOString(),
+    duration: "10:45",
+    viewCount: "4.5K",
+    likeCount: "300",
+    tags: ["free hosting", "github pages", "custom domain", "website upload", "students", "freelancers"]
+  }, {
+    id: 2,
+    title: "CM Punjab Green Tractor Scheme 2025 Phase 2 – Apply Online with 70% Subsidy",
+    excerpt: "Punjab Government ne CM Punjab Green Tractor Scheme 2025 Phase 2 launch kar di hai jisme kisano ko 70% subsidy ke sath tractors provide kiye ja rahe hain. Is blog me eligibility, documents, apply process, subsidy details aur FAQs hain.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">CM Punjab Green Tractor Scheme 2025 Phase 2 – Full Apply Guide with Subsidy & Draw Details</h1>
     <p class="post-excerpt">Punjab Government ne <strong>CM Punjab Green Tractor Scheme 2025 Phase 2</strong> officially launch kar di hai. Is scheme ka maqsad kisano ko modern tractors aur agriculture tools subsidy par provide karna hai taake unki productivity barhe aur aamdani me izafa ho.</p>
@@ -201,20 +201,20 @@ const blogPosts = [
     <p><strong>Tags:</strong> CM Punjab Green Tractor Scheme 2025, Tractor Subsidy Punjab, Phase 2 Green Tractor Scheme, Punjab Farmers Loan 2025, Tractor Scheme Apply Online</p>
   </footer>
 </article>`
-        ,
-        category: "news&updates",
-        thumbnail: "images/blogs_images/tractor_p2.png",
-        videoId: "https://youtu.be/R5-1cEvABcw?si=GyEqedlD4TvUrlOs",
-        publishedAt: new Date(Date.now() - 86400000).toISOString(),
-        duration: "12:34",
-        viewCount: "3.2K",
-        likeCount: "210",
-        tags: ["tractor scheme", "maiyam nawaz", "government", "subsidy", "farming"]
-    }, {
-        id: 3,
-        title: "Which App Development Type is Best? Native vs Hybrid vs Cross Platform | App Development Roadmap 2025",
-        excerpt: "Native, Hybrid ya Cross-Platform app development? 2025 me kaunsa best hai? Languages, frameworks, pros/cons aur roadmap ka complete guide in Urdu/Hindi.",
-        content: `<article class="blog-post">
+    ,
+    category: "news&updates",
+    thumbnail: "images/blogs_images/tractor_p2.png",
+    videoId: "https://youtu.be/R5-1cEvABcw?si=GyEqedlD4TvUrlOs",
+    publishedAt: new Date(Date.now() - 86400000).toISOString(),
+    duration: "12:34",
+    viewCount: "3.2K",
+    likeCount: "210",
+    tags: ["tractor scheme", "maiyam nawaz", "government", "subsidy", "farming"]
+  }, {
+    id: 3,
+    title: "Which App Development Type is Best? Native vs Hybrid vs Cross Platform | App Development Roadmap 2025",
+    excerpt: "Native, Hybrid ya Cross-Platform app development? 2025 me kaunsa best hai? Languages, frameworks, pros/cons aur roadmap ka complete guide in Urdu/Hindi.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Which App Development Type is Best? Native vs Hybrid vs Cross Platform | App Development Roadmap 2025</h1>
     <p class="post-excerpt">Aap app development start karna chahte hain lekin confuse hain ki <strong>Native, Hybrid ya Cross-Platform</strong> development me se kaunsa best hai? Is blog me hum step-by-step explain karenge ye 3 major types of app development, unke frameworks, pros & cons aur kaunsa beginner ke liye sahi rahega.</p>
@@ -308,19 +308,19 @@ const blogPosts = [
     <p><strong>Tags:</strong> Native Apps, Hybrid Apps, Cross Platform Development, Flutter, React Native, Xamarin, App Development Roadmap, Mobile App Development 2025, Programming for Beginners, Tech in Urdu, Coding in Urdu, Learn Coding, App Design</p>
   </footer>
 </article>`
-        , category: "programming",
-        thumbnail: "images/blogs_images/app_types.jpg",
-        videoId: "https://youtu.be/f6CXqd5S36o?si=XgMbdHNYhH175elR",
-        publishedAt: new Date(Date.now() - 7200000).toISOString(),
-        duration: "12:10",
-        viewCount: "3.2K",
-        likeCount: "250",
-        tags: ["app development", "native", "hybrid", "cross platform", "flutter", "react native"]
-    }, {
-        id: 4,
-        title: "Top 10 Free Course Websites 2025 – Har Skill Seekho Free Mein | Students & Freelancers Guide",
-        excerpt: "2025 me students, freelancers aur beginners ke liye top 10 free course websites jahan aap programming, marketing, graphic design, data science aur aur skills seekh sakte hain. Certificates aur premium content included.",
-        content: `<article class="blog-post">
+    , category: "programming",
+    thumbnail: "images/blogs_images/app_types.jpg",
+    videoId: "https://youtu.be/f6CXqd5S36o?si=XgMbdHNYhH175elR",
+    publishedAt: new Date(Date.now() - 7200000).toISOString(),
+    duration: "12:10",
+    viewCount: "3.2K",
+    likeCount: "250",
+    tags: ["app development", "native", "hybrid", "cross platform", "flutter", "react native"]
+  }, {
+    id: 4,
+    title: "Top 10 Free Course Websites 2025 – Har Skill Seekho Free Mein | Students & Freelancers Guide",
+    excerpt: "2025 me students, freelancers aur beginners ke liye top 10 free course websites jahan aap programming, marketing, graphic design, data science aur aur skills seekh sakte hain. Certificates aur premium content included.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Top 10 Free Course Websites 2025 | Har Skill Seekho Free Mein | Students & Freelancers Guide</h1>
     <p class="post-excerpt">Agar aap programming, freelancing, graphic design, digital marketing ya data science seekhna chahte hain – wo bhi bilkul free me – to ye blog aapke liye hai. 2025 me ye <strong>Top 10 Free Course Websites</strong> students, freelancers aur job seekers ke liye perfect hain, jahan aap skills seekh kar certificates bhi hasil kar sakte hain aur apne career ya freelancing opportunities ko boost kar sakte hain.</p>
@@ -381,19 +381,19 @@ const blogPosts = [
     <p><strong>Tags:</strong> Free Online Courses 2025, Learn Online Free, Students Guide, Freelancers Courses, Programming Free, Graphic Design Free, Marketing Free, Data Science Free, freeCodeCamp, Coursera, edX, Khan Academy, Google Skillshop, Alison, HubSpot Academy, Top Free Learning Websites, Online Education Pakistan, Urdu Hindi Guide</p>
   </footer>
 </article>`
-        , category: "technology",
-        thumbnail: "images/blogs_images/free_courses.jpg",
-        videoId: "https://youtu.be/2spg-c_s5yg?si=0KY9_0GPaI-uoakX",
-        publishedAt: new Date(Date.now() - 21600000).toISOString(),
-        duration: "11:20",
-        viewCount: "2.1K",
-        likeCount: "165",
-        tags: ["free courses", "online learning", "students", "freelancers", "skills"]
-    }, {
-        id: 5,
-        title: "Punjab Kissan Card Phase 2 2025 – Rs 3 Lakh Interest-Free Loan",
-        excerpt: "Punjab Kissan Card Phase 2 2025 – Punjab Government ka shandar scheme, jisme kisano ko Rs 3 Lakh tak ka qarza interest-free diya ja raha hai. Apply process, eligibility aur documents ki full guide.",
-        content: `<article class="blog-post">
+    , category: "technology",
+    thumbnail: "images/blogs_images/free_courses.jpg",
+    videoId: "https://youtu.be/2spg-c_s5yg?si=0KY9_0GPaI-uoakX",
+    publishedAt: new Date(Date.now() - 21600000).toISOString(),
+    duration: "11:20",
+    viewCount: "2.1K",
+    likeCount: "165",
+    tags: ["free courses", "online learning", "students", "freelancers", "skills"]
+  }, {
+    id: 5,
+    title: "Punjab Kissan Card Phase 2 2025 – Rs 3 Lakh Interest-Free Loan",
+    excerpt: "Punjab Kissan Card Phase 2 2025 – Punjab Government ka shandar scheme, jisme kisano ko Rs 3 Lakh tak ka qarza interest-free diya ja raha hai. Apply process, eligibility aur documents ki full guide.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Punjab Kissan Card Phase 2 2025 – Rs 3 Lakh Interest-Free Loan | Full Apply Guide</h1>
     <p class="post-excerpt">Punjab Government ne 2025 me chote aur darmiyani kisano ke liye <strong>Punjab Kissan Card Phase 2</strong> launch kar diya hai. Is scheme ke zariye eligible farmers ko <strong>3 Lakh Rupee tak ka qarz</strong> milega, wo bhi 100% interest-free.</p>
@@ -452,20 +452,20 @@ const blogPosts = [
     <p><strong>Tags:</strong> Punjab Kissan Card 2025, Farmers Loan Scheme, Interest-Free Loan Punjab, Bank of Punjab, Kisan Card Phase 2 Apply</p>
   </footer>
 </article>`
-        ,
-        category: "news&updates",
-        thumbnail: "images/blogs_images/card_p2.png",
-        videoId: "https://youtu.be/R2oAhLXpoLE?si=eBoqGP45r74XiuYk",
-        publishedAt: new Date(Date.now() - 172800000).toISOString(),
-        duration: "8:45",
-        viewCount: "1.6K",
-        likeCount: "170",
-        tags: ["news", "updates", "kissan card", "phase 2", "loan"]
-    }, {
-        id: 6,
-        title: "How to Upload Code to GitHub in Just 5 Minutes | Step-by-Step Guide for Beginners | GitHub Tutorial",
-        excerpt: "Is beginner-friendly tutorial me aap seekhenge ke kaise apna code sirf 5 minutes me GitHub par upload karein using Git, GitHub, aur basic commands.",
-        content: `<article class="blog-post">
+    ,
+    category: "news&updates",
+    thumbnail: "images/blogs_images/card_p2.png",
+    videoId: "https://youtu.be/R2oAhLXpoLE?si=eBoqGP45r74XiuYk",
+    publishedAt: new Date(Date.now() - 172800000).toISOString(),
+    duration: "8:45",
+    viewCount: "1.6K",
+    likeCount: "170",
+    tags: ["news", "updates", "kissan card", "phase 2", "loan"]
+  }, {
+    id: 6,
+    title: "How to Upload Code to GitHub in Just 5 Minutes | Step-by-Step Guide for Beginners | GitHub Tutorial",
+    excerpt: "Is beginner-friendly tutorial me aap seekhenge ke kaise apna code sirf 5 minutes me GitHub par upload karein using Git, GitHub, aur basic commands.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">How to Upload Code to GitHub in Just 5 Minutes | Step-by-Step Guide for Beginners</h1>
     <p class="post-excerpt">Chahe aap beginner ho ya professional developer, apna <strong>code GitHub par upload karna</strong> aaj ke zamane me sabse important skill hai. Is tutorial me aap seekhenge ke kaise <strong>sirf 5 minutes</strong> me apna project GitHub par dalen using Git commands.</p>
@@ -541,19 +541,19 @@ git push -u origin main
     <p><strong>Tags:</strong> GitHub Tutorial, Upload Code to GitHub, Git Commands for Beginners, GitHub in Urdu, GitHub in Hindi, Programming Basics, GitHub Step by Step, Coding for Beginners, Learn Git, GitHub Guide 2025, Web Development, Learn Coding</p>
   </footer>
 </article>`
-        , category: "programming",
-        thumbnail: "images/blogs_images/gitub_tutorial.jpg",
-        videoId: "https://youtu.be/lC0ZPnTYJoA?si=yBqpVp3KvK0tifu2",
-        publishedAt: new Date(Date.now() - 10800000).toISOString(),
-        duration: "8:20",
-        viewCount: "2.8K",
-        likeCount: "200",
-        tags: ["github", "git", "upload code", "programming", "beginners", "students"]
-    }, {
-        id: 7,
-        title: "Top 4 Free AI Tools in 2025 You Must Try! 🔥 | Urdu/Hindi Guide",
-        excerpt: "2025 ke best free AI tools jo students, freelancers, aur content creators ke liye game-changer hain. Perplexity AI, Gamma.app, Leonardo AI, Tome ka full guide Urdu/Hindi me.",
-        content: `<article class="blog-post">
+    , category: "programming",
+    thumbnail: "images/blogs_images/gitub_tutorial.jpg",
+    videoId: "https://youtu.be/lC0ZPnTYJoA?si=yBqpVp3KvK0tifu2",
+    publishedAt: new Date(Date.now() - 10800000).toISOString(),
+    duration: "8:20",
+    viewCount: "2.8K",
+    likeCount: "200",
+    tags: ["github", "git", "upload code", "programming", "beginners", "students"]
+  }, {
+    id: 7,
+    title: "Top 4 Free AI Tools in 2025 You Must Try! 🔥 | Urdu/Hindi Guide",
+    excerpt: "2025 ke best free AI tools jo students, freelancers, aur content creators ke liye game-changer hain. Perplexity AI, Gamma.app, Leonardo AI, Tome ka full guide Urdu/Hindi me.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Top 4 Free AI Tools in 2025 You Must Try! 🔥 | Urdu/Hindi Guide</h1>
     <p class="post-excerpt">2025 me AI tools ka craze bohot barh gaya hai. Agar aap apni productivity, creativity aur research ko next level pe le jana chahte hain, to ye 4 free AI tools aapke liye perfect hain — students, freelancers, content creators aur tech lovers ke liye.</p>
@@ -597,19 +597,19 @@ git push -u origin main
     <p><strong>Tags:</strong> AI Tools 2025, Free AI Tools, Perplexity AI, Gamma App, Leonardo AI, Tome App, Urdu Tech Guide, Freelancers Tools, Content Creation Tools, Learn With HR Naqvi, Productivity Tools, AI for Students, AI Tutorials Urdu Hindi</p>
   </footer>
 </article>`
-        , category: "technology",
-        thumbnail: "images/blogs_images/ai_tools.jpg",
-        videoId: "https://youtu.be/WLbdyNHBjNs?si=xdYtub8x6W9lfVuT",
-        publishedAt: new Date(Date.now() - 10800000).toISOString(),
-        duration: "9:45",
-        viewCount: "1.5K",
-        likeCount: "120",
-        tags: ["ai tools", "free ai", "productivity", "students", "freelancers"]
-    }, {
-        id: 8,
-        title: "5 Essential Things to Check Before Buying a Laptop (2025) – University Guide",
-        excerpt: "University ke liye best laptop kaise choose karein? 5 essential cheezein jo aapko laptop lene se pehle check karni chahiye. Processor, RAM, Storage, Battery aur Display ka complete guide.",
-        content: `<article class="blog-post">
+    , category: "technology",
+    thumbnail: "images/blogs_images/ai_tools.jpg",
+    videoId: "https://youtu.be/WLbdyNHBjNs?si=xdYtub8x6W9lfVuT",
+    publishedAt: new Date(Date.now() - 10800000).toISOString(),
+    duration: "9:45",
+    viewCount: "1.5K",
+    likeCount: "120",
+    tags: ["ai tools", "free ai", "productivity", "students", "freelancers"]
+  }, {
+    id: 8,
+    title: "5 Essential Things to Check Before Buying a Laptop (2025) – University Guide",
+    excerpt: "University ke liye best laptop kaise choose karein? 5 essential cheezein jo aapko laptop lene se pehle check karni chahiye. Processor, RAM, Storage, Battery aur Display ka complete guide.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">5 Essential Things to Check Before Buying a Laptop (2025) | University Students Guide</h1>
     <p class="post-excerpt">University students ke liye laptop ek zaroori tool hai. Is blog me hum discuss karenge 5 essential cheezein jo aapko laptop lene se pehle check karni chahiye – Processor, RAM, Storage, Battery aur Display ke sahi choices ke sath.</p>
@@ -658,19 +658,19 @@ git push -u origin main
     <p><strong>Tags:</strong> Best Laptop 2025, University Laptop Guide, Student Laptop, Laptop Buying Tips, CS Students Laptop, Engineering Laptop, Medical Students Laptop, Freelancing Laptop, Tech Guide, Learn With HR Naqvi</p>
   </footer>
 </article>`
-        , category: "technology",
-        thumbnail: "images/blogs_images/laptop_buy.jpg",
-        videoId: "https://youtu.be/VDhGB96Kvo8?si=0nlVRc2r18rETIv9",
-        publishedAt: new Date(Date.now() - 43200000).toISOString(),
-        duration: "10:15",
-        viewCount: "1.8K",
-        likeCount: "145",
-        tags: ["laptop", "university", "students", "technology", "guide"]
-    }, {
-        id: 9,
-        title: "Ehsaas Program 2025 – 25,000 Payment Start | CNIC 8171 Check & Apply Online",
-        excerpt: "Ehsaas Program 2025 me 25,000 rupay ki new payment start ho chuki hai. CNIC 8171 par check kaise karein, registration aur apply process ki complete guide.",
-        content: `<article class="blog-post">
+    , category: "technology",
+    thumbnail: "images/blogs_images/laptop_buy.jpg",
+    videoId: "https://youtu.be/VDhGB96Kvo8?si=0nlVRc2r18rETIv9",
+    publishedAt: new Date(Date.now() - 43200000).toISOString(),
+    duration: "10:15",
+    viewCount: "1.8K",
+    likeCount: "145",
+    tags: ["laptop", "university", "students", "technology", "guide"]
+  }, {
+    id: 9,
+    title: "Ehsaas Program 2025 – 25,000 Payment Start | CNIC 8171 Check & Apply Online",
+    excerpt: "Ehsaas Program 2025 me 25,000 rupay ki new payment start ho chuki hai. CNIC 8171 par check kaise karein, registration aur apply process ki complete guide.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Ehsaas Program 2025 – 25,000 Payment Start! | CNIC 8171 Check & Apply Online</h1>
     <p class="post-excerpt">Ehsaas Program 2025 me government ne un logon ke liye naya package announce kiya hai jo mohtaj, be-rozgar ya flood affected hain. Is blog me aapko step-by-step guide milegi ke kaise 25,000 rupay ki payment check aur claim karein.</p>
@@ -727,19 +727,19 @@ git push -u origin main
     <p><strong>Tags:</strong> Ehsaas Program 2025, CNIC 8171, 25,000 Payment, BISP, Ehsaas Kafalat, 8171 Portal, Online Apply, Social Welfare Pakistan</p>
   </footer>
 </article>`
-        , category: "news&updates",
-        thumbnail: "images/blogs_images/ahsas_prog.webp",
-        videoId: "https://youtu.be/YJthgLsw60w?si=OgwToRDivuJT_HfF",
-        publishedAt: new Date(Date.now() - 432000000).toISOString(),
-        duration: "9:30",
-        viewCount: "2.3K",
-        likeCount: "200",
-        tags: ["ehsaas program", "cnic 8171", "bisp", "social welfare", "financial aid"]
-    }, {
-        id: 10,
-        title: "Laptop Slow? Boost Speed in 2 Minutes with 5 Hidden Windows Settings | 100% Working",
-        excerpt: "Laptop slow chal raha hai? Windows 10 & 11 me 5 hidden settings use karke apne laptop ki speed boost karein. Beginner-friendly, no software required, students, freelancers aur gamers ke liye best guide.",
-        content: `<article class="blog-post">
+    , category: "news&updates",
+    thumbnail: "images/blogs_images/ahsas_prog.webp",
+    videoId: "https://youtu.be/YJthgLsw60w?si=OgwToRDivuJT_HfF",
+    publishedAt: new Date(Date.now() - 432000000).toISOString(),
+    duration: "9:30",
+    viewCount: "2.3K",
+    likeCount: "200",
+    tags: ["ehsaas program", "cnic 8171", "bisp", "social welfare", "financial aid"]
+  }, {
+    id: 10,
+    title: "Laptop Slow? Boost Speed in 2 Minutes with 5 Hidden Windows Settings | 100% Working",
+    excerpt: "Laptop slow chal raha hai? Windows 10 & 11 me 5 hidden settings use karke apne laptop ki speed boost karein. Beginner-friendly, no software required, students, freelancers aur gamers ke liye best guide.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Laptop Slow? Boost Speed in 2 Minutes with 5 Hidden Windows Settings | 100% Working</h1>
     <p class="post-excerpt">Laptop boot hone me time lagta hai ya Chrome/software open karte hi freeze ho jata hai? Ye guide aapko Windows 10 & 11 me 5 hidden settings batayegi jo aapke laptop ko bina kisi software ke <strong>JET FAST</strong> bana degi!</p>
@@ -785,19 +785,19 @@ git push -u origin main
     <p><strong>Tags:</strong> Laptop Speed Boost, Windows 10 Tips, Windows 11 Tricks, Slow Laptop Fix, Beginner Friendly Guide, Tech Tips Urdu, Freelancers Laptop, Student Laptop Guide, No Software Speed Boost, Hidden Windows Settings, Learn With HR Naqvi</p>
   </footer>
 </article>`
-        , category: "technology",
-        thumbnail: "images/blogs_images/laptop_slow.jpg",
-        videoId: "https://youtu.be/-BFOMXkxi_Q?si=9aQaW66HbuQ5Q_lt",
-        publishedAt: new Date(Date.now() - 10800000).toISOString(),
-        duration: "9:50",
-        viewCount: "1.5K",
-        likeCount: "120",
-        tags: ["laptop", "speed boost", "windows 10", "windows 11", "technology"]
-    }, {
-        id: 11,
-        title: "Move Recovery Partition & Extend C Drive Space | Step-by-Step Guide (MiniTool Partition Wizard)",
-        excerpt: "Apne C drive ka space badhayein MiniTool Partition Wizard ka use karke – recovery partition move karein aur C drive extend karein without losing data.",
-        content: `<article class="blog-post">
+    , category: "technology",
+    thumbnail: "images/blogs_images/laptop_slow.jpg",
+    videoId: "https://youtu.be/-BFOMXkxi_Q?si=9aQaW66HbuQ5Q_lt",
+    publishedAt: new Date(Date.now() - 10800000).toISOString(),
+    duration: "9:50",
+    viewCount: "1.5K",
+    likeCount: "120",
+    tags: ["laptop", "speed boost", "windows 10", "windows 11", "technology"]
+  }, {
+    id: 11,
+    title: "Move Recovery Partition & Extend C Drive Space | Step-by-Step Guide (MiniTool Partition Wizard)",
+    excerpt: "Apne C drive ka space badhayein MiniTool Partition Wizard ka use karke – recovery partition move karein aur C drive extend karein without losing data.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Move Recovery Partition & Extend C Drive Space | Step-by-Step Guide (MiniTool Partition Wizard)</h1>
     <p class="post-excerpt">C drive full ho gaya hai? Don’t worry! Is guide me hum step-by-step dekhenge kaise <strong>MiniTool Partition Wizard</strong> use karke apna <strong>recovery partition move</strong> karein aur <strong>C drive extend</strong> karein safely, without losing data.</p>
@@ -861,19 +861,19 @@ git push -u origin main
     <p><strong>Tags:</strong> C Drive Extend, Move Recovery Partition, MiniTool Partition Wizard, Disk Management Windows, Partition Resize, Extend C Drive Without Losing Data, Windows 10 Storage Fix, Windows 11 Partition Guide, Tech Tutorial, LearnWithHRNaqvi</p>
   </footer>
 </article>`
-        , category: "technology",
-        thumbnail: "images/blogs_images/move_recovery_partition.jpg",
-        videoId: "https://youtu.be/_cXxxdk33hQ?si=Tp6DRB3AfRMiWJCE",
-        publishedAt: new Date(Date.now() - 14400000).toISOString(),
-        duration: "10:05",
-        viewCount: "1.2K",
-        likeCount: "110",
-        tags: ["c drive", "partition", "minitool", "windows", "technology"]
-    }, {
-        id: 12,
-        title: "Pakistan Selab 2025 – Ravi & Chenab High Flood Alert",
-        excerpt: "Pakistan Selab 2025 – Ravi aur Chenab daryao me high flood alert jaari. NDMA ne logon ko evakuation aur safety instructions di hain.",
-        content: `<article class="blog-post">
+    , category: "technology",
+    thumbnail: "images/blogs_images/move_recovery_partition.jpg",
+    videoId: "https://youtu.be/_cXxxdk33hQ?si=Tp6DRB3AfRMiWJCE",
+    publishedAt: new Date(Date.now() - 14400000).toISOString(),
+    duration: "10:05",
+    viewCount: "1.2K",
+    likeCount: "110",
+    tags: ["c drive", "partition", "minitool", "windows", "technology"]
+  }, {
+    id: 12,
+    title: "Pakistan Selab 2025 – Ravi & Chenab High Flood Alert",
+    excerpt: "Pakistan Selab 2025 – Ravi aur Chenab daryao me high flood alert jaari. NDMA ne logon ko evakuation aur safety instructions di hain.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Pakistan Selab 2025 – Ravi & Chenab High Flood Alert | NDMA Updates</h1>
     <p class="post-excerpt">2025 ke monsoon silsile ne Ravi aur Chenab daryao me pani ki satah khatarnak had tak barha di hai. NDMA ne mukhtalif ilaqon ke liye flood alerts aur evakuation orders jaari kar diye hain.</p>
@@ -913,20 +913,20 @@ git push -u origin main
     <p><strong>Tags:</strong> Pakistan Selab 2025, NDMA Alert, Ravi Flood, Chenab Flood</p>
   </footer>
 </article>`
-        ,
-        category: "news&updates",
-        thumbnail: "images/blogs_images/flood_report.png",
-        videoId: "https://youtu.be/ppnI5rcvjao?si=L_5GgWAo2AvkS1e7",
-        publishedAt: new Date(Date.now() - 172800000).toISOString(),
-        duration: "8:45",
-        viewCount: "2.8K",
-        likeCount: "178",
-        tags: ["news", "updates", "flood", "pakistan situation"]
-    }, {
-        id: 13,
-        title: "Social Media Growth Tips 2025 – Instagram, Facebook & YouTube Pe Followers Aur Views Badhane Ke Tareeqay",
-        excerpt: "2025 ke social media growth tips jo Instagram, Facebook aur YouTube par followers aur views barhane mein madad karenge. Content strategy, consistency, aur engagement pe focus.",
-        content: `<article class="blog-post">
+    ,
+    category: "news&updates",
+    thumbnail: "images/blogs_images/flood_report.png",
+    videoId: "https://youtu.be/ppnI5rcvjao?si=L_5GgWAo2AvkS1e7",
+    publishedAt: new Date(Date.now() - 172800000).toISOString(),
+    duration: "8:45",
+    viewCount: "2.8K",
+    likeCount: "178",
+    tags: ["news", "updates", "flood", "pakistan situation"]
+  }, {
+    id: 13,
+    title: "Social Media Growth Tips 2025 – Instagram, Facebook & YouTube Pe Followers Aur Views Badhane Ke Tareeqay",
+    excerpt: "2025 ke social media growth tips jo Instagram, Facebook aur YouTube par followers aur views barhane mein madad karenge. Content strategy, consistency, aur engagement pe focus.",
+    content: `<article class="blog-post">
 <header class="post-header">
     <h1 class="post-title">Social Media Growth Tips 2025 – Instagram, Facebook & YouTube Pe Followers Aur Views Kaise Badhayein</h1>
     <p class="post-excerpt">2025 ke social media growth tips jo Instagram, Facebook aur YouTube par followers aur views barhane mein madad karenge. Content strategy, consistency, aur engagement pe focus.</p>
@@ -971,20 +971,20 @@ git push -u origin main
     <p><strong>Tags:</strong> Social Media Growth, Followers Tips, Views Barhanay Ke Tareeqay, Instagram Tips 2025, YouTube Views, Facebook Engagement</p>
   </footer>
 </article>`
-        ,
-        category: "technology",
-        thumbnail: "images/blogs_images/social_media_growth.png",
-        videoId: "https://youtu.be/XocrFgQB9CE?si=T-c6FGAf8dXWYbXB",
-        publishedAt: new Date(Date.now() - 259200000).toISOString(),
-        duration: "15:20",
-        viewCount: "4.1K",
-        likeCount: "320",
-        tags: ["ai", "tools", "content", "socail media growth"]
-    }, {
-        id: 14,
-        title: "Microtasks Se Online Paise Kamaye 2025 – Ghar Baithe Earning Without Investment",
-        excerpt: "Microtasks se online paise kamayein 2025 me. Step-by-step guide jisme best websites, apply process, payment methods aur earning tips cover kiye gaye hain. Students aur ghar baithe freelancing ka asaan tareeqa.",
-        content: `<article class="blog-post">
+    ,
+    category: "technology",
+    thumbnail: "images/blogs_images/social_media_growth.png",
+    videoId: "https://youtu.be/XocrFgQB9CE?si=T-c6FGAf8dXWYbXB",
+    publishedAt: new Date(Date.now() - 259200000).toISOString(),
+    duration: "15:20",
+    viewCount: "4.1K",
+    likeCount: "320",
+    tags: ["ai", "tools", "content", "socail media growth"]
+  }, {
+    id: 14,
+    title: "Microtasks Se Online Paise Kamaye 2025 – Ghar Baithe Earning Without Investment",
+    excerpt: "Microtasks se online paise kamayein 2025 me. Step-by-step guide jisme best websites, apply process, payment methods aur earning tips cover kiye gaye hain. Students aur ghar baithe freelancing ka asaan tareeqa.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">Microtasks Se Online Paise Kamaye 2025 | Ghar Baithe Earning Without Investment</h1>
     <p class="post-excerpt">2025 me online paise kamane ka sabse easy tareeqa hai <strong>Microtasks</strong>. Aap chhote-chhote kaam complete karke daily $10–$50 earn kar sakte ho, chahe aap student ho ya ghar baithe free time me earning karna chahte ho.</p>
@@ -1037,20 +1037,20 @@ git push -u origin main
     <p><strong>Tags:</strong> Microtasks 2025, Online Earning, Work From Home, Microworkers Guide, Remotasks Training, Clickworker Payment Proof</p>
   </footer>
 </article>`
-        ,
-        category: "earning",
-        thumbnail: "images/blogs_images/Online_earning.png",
-        videoId: "https://youtu.be/Cd_aX8U2DmQ?si=pUy8pY29WK3nQnQa",
-        publishedAt: new Date(Date.now() - 345600000).toISOString(),
-        duration: "10:15",
-        viewCount: "5.5K",
-        likeCount: "450",
-        tags: ["microtasks", "online earning", "work from home", "students", "freelancing"]
-    }, {
-        id: 15,
-        title: "CCD Punjab 2025 – Crime Control Department Full Details | Jobs, Structure & Apply Guide",
-        excerpt: "CCD Punjab 2025 – CM Punjab ne launch kiya Crime Control Department (CCD) jo serious aur organized crimes ko target karega. Full details, wings, recruitment, jobs aur apply process Urdu me.",
-        content: `<article class="blog-post">
+    ,
+    category: "earning",
+    thumbnail: "images/blogs_images/Online_earning.png",
+    videoId: "https://youtu.be/Cd_aX8U2DmQ?si=pUy8pY29WK3nQnQa",
+    publishedAt: new Date(Date.now() - 345600000).toISOString(),
+    duration: "10:15",
+    viewCount: "5.5K",
+    likeCount: "450",
+    tags: ["microtasks", "online earning", "work from home", "students", "freelancing"]
+  }, {
+    id: 15,
+    title: "CCD Punjab 2025 – Crime Control Department Full Details | Jobs, Structure & Apply Guide",
+    excerpt: "CCD Punjab 2025 – CM Punjab ne launch kiya Crime Control Department (CCD) jo serious aur organized crimes ko target karega. Full details, wings, recruitment, jobs aur apply process Urdu me.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">CCD Punjab 2025 – Crime Control Department Full Details | Jobs, Structure & Apply Guide</h1>
     <p class="post-excerpt">CM Maryam Nawaz ne 2025 me launch kiya <strong>CCD Punjab</strong> – ek naya aur powerful Crime Control Department jo serious aur organized crimes ko target karega. Is blog me aapko full guide milegi: department ka structure, powers, technology, recruitment aur apply process.</p>
@@ -1111,19 +1111,19 @@ git push -u origin main
     <p><strong>Tags:</strong> CCD Punjab 2025, Crime Control Department, Punjab Police Jobs, Police Recruitment 2025, Law Enforcement Pakistan, Organized Crime Punjab, Police Wing Structure, Investigation Jobs, Intelligence Officers, CM Maryam Nawaz</p>
   </footer>
 </article>`
-        , category: "news&updates",
-        thumbnail: "images/blogs_images/CCD Punjab.jpg",
-        videoId: "https://youtu.be/rcVwBNJUV7k?si=P8p3_BwCxxnSCzO3",
-        publishedAt: new Date(Date.now() - 216000000).toISOString(),
-        duration: "11:50",
-        viewCount: "3.9K",
-        likeCount: "290",
-        tags: ["ccd punjab", "crime control", "punjab police", "jobs", "recruitment"]
-    }, {
-        id: 16,
-        title: "PM Youth Loan Scheme 2025 – 75 Lakh Business Loan | Rozgar Scheme Full Guide",
-        excerpt: "PM Youth Loan Scheme 2025 me Pakistani youth, women entrepreneurs aur farmers ko 5 Lakh se 75 Lakh tak ka zero-markup ya subsidized business loan mil sakta hai. Apply process, eligibility aur documents ki complete guide.",
-        content: `<article class="blog-post">
+    , category: "news&updates",
+    thumbnail: "images/blogs_images/CCD Punjab.jpg",
+    videoId: "https://youtu.be/rcVwBNJUV7k?si=P8p3_BwCxxnSCzO3",
+    publishedAt: new Date(Date.now() - 216000000).toISOString(),
+    duration: "11:50",
+    viewCount: "3.9K",
+    likeCount: "290",
+    tags: ["ccd punjab", "crime control", "punjab police", "jobs", "recruitment"]
+  }, {
+    id: 16,
+    title: "PM Youth Loan Scheme 2025 – 75 Lakh Business Loan | Rozgar Scheme Full Guide",
+    excerpt: "PM Youth Loan Scheme 2025 me Pakistani youth, women entrepreneurs aur farmers ko 5 Lakh se 75 Lakh tak ka zero-markup ya subsidized business loan mil sakta hai. Apply process, eligibility aur documents ki complete guide.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">PM Youth Loan Scheme 2025 – 75 Lakh Business Loan | Apply Online Full Guide</h1>
     <p class="post-excerpt">Pakistan Government ne 2025 me sabse bara <strong>Youth Business Loan Program</strong> launch kiya hai. Eligible Pakistani youth, women entrepreneurs aur farmers ab <strong>5 Lakh se 75 Lakh</strong> tak ka business loan le sakte hain, wo bhi zero markup ya subsidized rates par. Is blog me aapko full step-by-step guide milegi ke kaise apply karein aur business start karein.</p>
@@ -1185,20 +1185,20 @@ git push -u origin main
     <p><strong>Tags:</strong> PM Youth Loan 2025, Rozgar Scheme Pakistan, Business Loan Zero Markup, Youth Entrepreneurship, Women Entrepreneurs Loan, Startup Loan Pakistan, Tiered Business Loan, Apply Online PMYP</p>
   </footer>
 </article>`
-        ,
-        category: "news&updates",
-        thumbnail: "images/blogs_images/pm_loan.png",
-        videoId: "https://youtu.be/vAvwjj7sh04?si=5SVM3ez6dwx72oxT",
-        publishedAt: new Date(Date.now() - 518400000).toISOString(),
-        duration: "11:50",
-        viewCount: "3.7K",
-        likeCount: "290",
-        tags: ["pm youth loan", "business loan", "rozgar scheme", "entrepreneurs", "startup"]
-    }, {
-        id: 18,
-        title: "CM Punjab Free Bike Scheme 2025 (Phase 2) – Petrol & Electric Bikes for Students",
-        excerpt: "CM Punjab Bike Scheme 2025 Phase 2 officially launched – 27,000 petrol & electric bikes for students on interest-free installments. Apply process, eligibility, quota aur full guide.",
-        content: `<article class="blog-post">
+    ,
+    category: "news&updates",
+    thumbnail: "images/blogs_images/pm_loan.png",
+    videoId: "https://youtu.be/vAvwjj7sh04?si=5SVM3ez6dwx72oxT",
+    publishedAt: new Date(Date.now() - 518400000).toISOString(),
+    duration: "11:50",
+    viewCount: "3.7K",
+    likeCount: "290",
+    tags: ["pm youth loan", "business loan", "rozgar scheme", "entrepreneurs", "startup"]
+  }, {
+    id: 18,
+    title: "CM Punjab Free Bike Scheme 2025 (Phase 2) – Petrol & Electric Bikes for Students",
+    excerpt: "CM Punjab Bike Scheme 2025 Phase 2 officially launched – 27,000 petrol & electric bikes for students on interest-free installments. Apply process, eligibility, quota aur full guide.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">CM Punjab Free Bike Scheme 2025 (Phase 2) – Petrol & Electric Bikes for Students | Full Apply Guide</h1>
     <p class="post-excerpt"><strong>CM Punjab Maryam Nawaz</strong> ne officially launch kar diya <strong>CM Punjab Free Bike Scheme 2025 Phase 2</strong>. Is scheme ke zariye students ko <strong>27,000 petrol aur electric bikes</strong> milengi interest-free installment plans ke saath.</p>
@@ -1264,19 +1264,19 @@ git push -u origin main
     <p><strong>Tags:</strong> CM Punjab Bike Scheme 2025, Maryam Nawaz, Punjab Students, Petrol Bikes, Electric Bikes Pakistan, Punjab Govt Schemes, Free Bike Scheme, Student Loan Pakistan</p>
   </footer>
 </article>`
-        , category: "news&updates",
-        thumbnail: "images/blogs_images/bike_scheme.jpg",
-        videoId: "https://youtu.be/RsAYi7sSD0o?si=9pkxQAbqlAoUuSpu",
-        publishedAt: new Date(Date.now() - 691200000).toISOString(),
-        duration: "10:45",
-        viewCount: "4.8K",
-        likeCount: "400",
-        tags: ["bike scheme", "punjab govt", "students", "electric bikes", "petrol bikes"]
-    }, {
-        id: 19,
-        title: "How to Create a Restaurant Management System in Python | Mini Project Tutorial",
-        excerpt: "Python backend development ka practical project – Restaurant Management System. Step-by-step coding guide beginners ke liye simple aur easy example ke sath.",
-        content: `<article class="blog-post">
+    , category: "news&updates",
+    thumbnail: "images/blogs_images/bike_scheme.jpg",
+    videoId: "https://youtu.be/RsAYi7sSD0o?si=9pkxQAbqlAoUuSpu",
+    publishedAt: new Date(Date.now() - 691200000).toISOString(),
+    duration: "10:45",
+    viewCount: "4.8K",
+    likeCount: "400",
+    tags: ["bike scheme", "punjab govt", "students", "electric bikes", "petrol bikes"]
+  }, {
+    id: 19,
+    title: "How to Create a Restaurant Management System in Python | Mini Project Tutorial",
+    excerpt: "Python backend development ka practical project – Restaurant Management System. Step-by-step coding guide beginners ke liye simple aur easy example ke sath.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">How to Create a Restaurant Management System in Python | Mini Project Tutorial</h1>
     <p class="post-excerpt">Is tutorial me aap seekhenge kaise Python ka use karke ek simple <strong>Restaurant Management System</strong> banaya jata hai. Ye project specially beginners ke liye design kiya gaya hai jahan aapko <strong>order management</strong> aur backend coding ka practical demo milega.</p>
@@ -1309,45 +1309,45 @@ git push -u origin main
     <p><strong>Tags:</strong> Python Mini Project, Restaurant Management System, Python Backend Tutorial, Coding for Beginners, Python Projects 2025, Learn Python, Order Management System</p>
   </footer>
 </article>`
-        , category: "programming",
-        thumbnail: "images/blogs_images/resturant_managment_system.jpg",
-        videoId: "https://youtu.be/7Ut3-B3pW7M?si=2NNpEYNa8Eoer1QW",
-        publishedAt: new Date(Date.now() - 259200000).toISOString(),
-        duration: "15:20",
-        viewCount: "1.2K",
-        likeCount: "150",
-        tags: ["python", "restaurant management", "mini project", "backend development", "coding tutorial"]
-    }, {
-        id: 20,
-        title: "All SIM Database Aur Live Tracking Ki Asal Haqeeqat | CNIC Info Kaise Check Karein? | 100% Working",
-        excerpt: "Is video mein hum Pakistan mein SIMs ke data, CNIC information, aur live tracking ke claims ki asli haqeeqat discuss karenge. Video mein demo ke liye \"Multi Info\" website ko istamal kiya gaya — sirf educational purpose ke liye. Misuse na karein!",
-        content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">All SIM Database Aur Live Tracking Ki Asal Haqeeqat | CNIC Info Kaise Check Karein? | 100% Working</h1>\n    <p class=\"post-excerpt\">Is video mein hum Pakistan mein <strong>SIMs ke data</strong>, <strong>CNIC information</strong>, aur <strong>live tracking</strong> ke claims ki sachai samjhayenge. Video mein demo ke liye <strong>Multi Info</strong> website ka istemal dikhaya gaya — lekin ye sirf educational demonstration hai. <strong>Illegal access</strong> ya privacy violation encourage nahi kiya jayega. Apni ya authorised information check karne ke liye hi methods use karein.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Aaj kal social media aur WhatsApp par bohot si videos aur posts circulate hoti hain jo claim karti hain ke \"sab SIM data\" ya \"CNIC database\" kisi bhi shakhs ka track kar sakte hain. Is video aur is blog ka maqsad in claims ko fact-check karna, legal boundaries samjhana, aur aapko batana hai ke aap apni information ko kaise <strong>secure</strong> rakh sakte hain. Video mein maine ek third-party tool — <strong>Multi Info</strong> — ka demonstration diya taake audience ko dikha sakoon ke public/consent-based tools kis had tak kaam karte hain aur unki limitations kya hain.</p>\n\n    <h2>Video me kya cover kiya gaya hai</h2>\n    <ul>\n      <li>✅ Multi Info website ka safe demo (sirf public/consent-based data ke liye)</li>\n      <li>✅ SIM data aur CNIC info ke ahem facts (educational)</li>\n      <li>✅ Kaun si cheezein legal hain aur kaun si illegal</li>\n      <li>✅ Apni SIM/CNIC information ko check karne ke <strong>authorised</strong> tareeqay</li>\n      <li>✅ Privacy protection aur SIM fraud se bachne ke tips</li>\n      <li>✅ Common myths vs reality</li>\n    </ul>\n\n    <h2>Kaise maine <em>Multi Info</em> website ka demo dikhaya (high-level)</h2>\n    <p>Yeh zaroori hai ke demo sirf educational raahe — is liye main yahan sirf high-level steps bata raha hoon jo video me show kiye gaye thay. In steps ka maqsad aapko samjhana hai ke public/consent-based tools ko kaise responsibly evaluate karna chahiye — detailed exploitative steps nahi.</p>\n    <ul>\n      <li><strong>Website authenticity check:</strong> Pehle domain aur website ki authenticity dekhi (SSL, about page, contact info) — trusted sources ko tarjeeh dein.</li>\n      <li><strong>Public/consent-based search:</strong> Demo me sirf apne khud ke number/CNIC ya woh sample data use kiya gaya jo public ya consent-based tha — kisi doosre ki private details search ya access nahi ki gayi.</li>\n      <li><strong>Result verification:</strong> Jo results Multi Info ne dikhaye unko cross-check kiya gaya — jaise operator app ya official kanal se match karna — taake false/old data identify ki ja sake.</li>\n      <li><strong>Limitations highlight ki:</strong> Maine video me clearly bataya ke third-party sites ke results kam reliable ho sakte hain, aur woh complete SIM/CNIC records provide nahi karte (aur agar claim karte hain to woh suspicious hain).</li>\n      <li><strong>Follow-up safe actions:</strong> Agar koi discrepancy mili to operator ke verified helpline aur official government portals ko contact karne ki salah di gayi — bina legal consent ke koi action na lein.</li>\n    </ul>\n\n    <h2>Important Legal &amp; Ethical Notice</h2>\n    <p><strong>Dhyan:</strong> Kisi bhi shakhs ki personal information jaise CNIC details, location, ya SIM records bina unki explicit consent ke access karna illegal ho sakta hai. Video me jo Multi Info demo dikhaya gaya, woh sirf educational purpose ke liye tha aur maine emphasise kiya ke sensitive matters ke liye official/authorised channels hi use karein. Agar aap research ya verification kar rahe hain to hamesha consent aur law ka khayal rakhein.</p>\n\n    <h2>Apni SIM/CNIC details ko legal tareeqay se kaise check karein (high-level)</h2>\n    <p>Yahan kuch general, lawful options diye gaye hain jo aam tor par available hotay hain — lekin hamesha official channels ka hi use karein:</p>\n    <ul>\n      <li><strong>Mobile operator apps / official websites:</strong> Jazz, Zong, Telenor, Ufone waghera ki official apps aur customer portals par apne registered account se apni SIM aur account details check kar sakte hain.</li>\n      <li><strong>USSD aur SIM settings:</strong> Apne device me SIM settings ya operator ke verified short codes se apni SIM status ya registered number check karen — yeh sirf aapke apne SIM ke liye hota hai.</li>\n      <li><strong>Official government portals:</strong> CNIC verification ya identity-related services ke liye NADRA ya relevant government services ka hi rasta istemal karein.</li>\n      <li><strong>Customer care &amp; service centres:</strong> Agar aapko duplicate SIM ya unauthorised activation ka shuba ho, to operator ke authorised centers par jaa kar identity proof se complaint register karen.</li>\n    </ul>\n\n    <h2>Live tracking — haqeeqat kya hai?</h2>\n    <p>\"Live tracking\" (kisi shakhs ka real-time location follow karna) sirf tab legal hota hai jab:</p>\n    <ol>\n      <li>Target person ne khud consent de di ho (jaise family tracking apps jinme dono parties ki permission ho), ya</li>\n      <li>Law enforcement ke paas legal warrant ho ya authorised procedure follow kiya gaya ho.</li>\n    </ol>\n    <p>Multi Info jaisi third-party sites kabhi-kabhi sensational claims karti hain; video me maine yeh bataya ke in claims ko sceptically lena chahiye aur unki authenticity, privacy policy, aur legal standing confirm karni chahiye.</p>\n\n    <h2>Privacy &amp; SIM Fraud se bachne ke practical tips</h2>\n    <ul>\n      <li><strong>Apne CNIC aur SIM details share na karein</strong> jab tak zaroori na ho — kisi unknown website ya social post par kabhi na daalein.</li>\n      <li><strong>Two-factor authentication (2FA)</strong> enable karein; possible alternative authenticator apps consider karein taake SMS-based vulnerabilities kam hon.</li>\n      <li><strong>SIM swap fraud se protect karein:</strong> Operator par biometric/identity verification enable karwaein jahan available ho, aur suspicious activity turant report karein.</li>\n      <li><strong>Official channels use karein:</strong> Sirf operator ke verified helplines aur government portals par hi apni queries/complaints bhejein.</li>\n      <li><strong>Strong passwords &amp; device security:</strong> Phone lock, biometric, screen lock aur updated OS use karein.</li>\n    </ul>\n\n    <h2>Myths vs Reality</h2>\n    <p><strong>Myth:</strong> \"Koi bhi aadmi internet se kisi ka CNIC nikal sakta hai.\" <br>\n    <strong>Reality:</strong> Publicly available sources se limited information mil sakti hai; lekin complete CNIC records aur private SIM logs generally protected hote hain aur unauthorised access illegal hai. Multi Info jaise tools bhi aksar limited ya public data hi show karte hain — aur unka accuracy level vary kar sakta hai.</p>\n\n    <p><strong>Myth:</strong> \"Ek simple free tool se aap kisi ka live location track kar sakte ho.\" <br>\n    <strong>Reality:</strong> Legitimate real-time tracking services require consent (ya legal order). Free tools aksar galat, spammy, ya malicious ho sakte hain.</p>\n\n    <h2>Conclusion</h2>\n    <p>Agar aap video dekh rahe hain to yaad rakhein: <strong>knowledge power ke saath responsibility bhi aati hai.</strong> Is blog aur video ka maksad aapko educate karna hai — na ke kisi ki privacy invade karna. Video me maine Multi Info ka demo is liye dikhaya ke aapko real-world example mile ke third-party tools kya dikha sakte hain aur unki limitations kya hoti hain. Apni aur apne family ki information secure rakhne ki aadatein develop karein, aur agar kabhi kisi suspicious cheez ka samna ho to authorised channels par report karein.</p>\n\n    <p>👉 Agar aap chahte hain, agle videos me main <strong>operator-specific authorised steps</strong> (jaise official app walkthroughs, complaint filing process, aur fraud reporting) practical aur safe tareeqay se dikhane ka plan karunga — bina kisi illegal method ke.</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> Multi Info Demo, SIM Privacy, CNIC Security, SIM Fraud Prevention, Telecom Safety Pakistan, Legal Notice, Privacy Tips, How to Check SIM Details (Legal)</p>\n  </footer>\n</article>`,
-        category: "technology",
-        thumbnail: "images/blogs_images/sim_databases.jpg",
-        videoId: "https://youtu.be/7nEi5khRuB4?si=S_fkpoP4QT7zRM39",
-        publishedAt: new Date(Date.now() - 86400000).toISOString(),
-        duration: "14:10",
-        viewCount: "5.6K",
-        likeCount: "480",
-        tags: ["sim database", "cnic info", "live tracking", "privacy", "legal"]
-    }, {
-        id: 21,
-        title: "Fix 'Open with Code' Issue & Install VS Code | Easy Step-by-Step Guide",
-        excerpt: "Is tutorial me aap seekhenge kaise Visual Studio Code me 'Open with Code' ka problem solve karte hain. Step-by-step installation aur fix guide beginners ke liye simple aur clear explanation ke sath.",
-        content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">Fix 'Open with Code' Issue & Install VS Code | Easy Step-by-Step Guide</h1>\n    <p class=\"post-excerpt\">Is video tutorial me hum cover karenge kaise Visual Studio Code ke <strong>'Open with Code'</strong> issue ko fix kiya jata hai. Ye problem aksar tab hoti hai jab aap VS Code install karte ho lekin context menu option appear nahi hota. Yahan aapko complete <strong>installation aur fix process</strong> milegi.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Agar aapne abhi abhi <strong>Visual Studio Code</strong> install kiya hai aur aapke right-click context menu me <em>'Open with Code'</em> option show nahi ho raha, to tension lene ki zaroorat nahi. Ye ek common problem hai aur is video me aapko easy solution milega.</p>\n\n    <h2>Features Covered</h2>\n    <ul>\n      <li>✅ Visual Studio Code installation ka proper process</li>\n      <li>✅ Context menu me <em>'Open with Code'</em> option enable karna</li>\n      <li>✅ Windows setup aur registry fix steps</li>\n      <li>✅ Easy aur beginner-friendly explanation</li>\n    </ul>\n\n    <h2>Why This Guide?</h2>\n    <p>Bohot se beginners ko VS Code install karne ke baad ye issue face hota hai jisme <em>'Open with Code'</em> option missing hota hai. Ye guide specially unke liye banayi gayi hai jo coding start kar rahe hain aur apne workflow ko smooth banana chahte hain.</p>\n\n    <h2>Step-by-Step Process</h2>\n    <p>Video me practically har step dikhaya gaya hai:</p>\n    <ol>\n      <li>Visual Studio Code ka latest version download karna</li>\n      <li>Installation ke waqt required checkboxes tick karna (add to PATH, add context menu)</li>\n      <li>Agar pehle se install hai to repair ya modify installation</li>\n      <li>Context menu aur registry ke issues ko fix karna</li>\n      <li>Final testing to verify ke <em>'Open with Code'</em> option aa gaya hai</li>\n    </ol>\n\n    <h2>Conclusion</h2>\n    <p><strong>Visual Studio Code</strong> ek powerful code editor hai, aur agar aap isko properly setup karte ho to aapka workflow bohot easy ho jata hai. <em>'Open with Code'</em> option ek simple lekin useful feature hai jo coding speed badha deta hai. Is guide ko follow karke aap easily is issue ko fix kar sakte ho.</p>\n    <p>👉 Complete practical demonstration ke liye neeche video zaroor dekhein. Aur agar video pasand aaye to like, share aur subscribe karna na bhoolein!</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> Visual Studio Code, Open with Code Fix, VS Code Installation, Coding Help, Tech Tutorials, VS Code Tips, Learn Coding 2025</p>\n  </footer>\n</article>`,
-        category: "programming",
-        thumbnail: "images/blogs_images/Fix 'Open with Code' Issue.jpg",
-        videoId: "https://youtu.be/tdiohgleYDQ?si=1quL41AmXZjEFA_M",
-        publishedAt: new Date(Date.now() - 43200000).toISOString(),
-        duration: "8:30",
-        viewCount: "2.3K",
-        likeCount: "210",
-        tags: ["vs code", "open with code", "installation", "fix issue", "coding tutorial"]
-    },  {
-        id: 17,
-        title: "CM Punjab E-Taxi Scheme 2025 – 1100 Free Electric Taxis | Apply Online & Eligibility",
-        excerpt: "Punjab E-Taxi Scheme 2025 – Government ne 1100 free electric taxis provide karne ka plan launch kiya hai. Is blog me eligibility, apply process, required documents aur full guide diya gaya hai.",
-        content: `<article class="blog-post">
+    , category: "programming",
+    thumbnail: "images/blogs_images/resturant_managment_system.jpg",
+    videoId: "https://youtu.be/7Ut3-B3pW7M?si=2NNpEYNa8Eoer1QW",
+    publishedAt: new Date(Date.now() - 259200000).toISOString(),
+    duration: "15:20",
+    viewCount: "1.2K",
+    likeCount: "150",
+    tags: ["python", "restaurant management", "mini project", "backend development", "coding tutorial"]
+  }, {
+    id: 20,
+    title: "All SIM Database Aur Live Tracking Ki Asal Haqeeqat | CNIC Info Kaise Check Karein? | 100% Working",
+    excerpt: "Is video mein hum Pakistan mein SIMs ke data, CNIC information, aur live tracking ke claims ki asli haqeeqat discuss karenge. Video mein demo ke liye \"Multi Info\" website ko istamal kiya gaya — sirf educational purpose ke liye. Misuse na karein!",
+    content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">All SIM Database Aur Live Tracking Ki Asal Haqeeqat | CNIC Info Kaise Check Karein? | 100% Working</h1>\n    <p class=\"post-excerpt\">Is video mein hum Pakistan mein <strong>SIMs ke data</strong>, <strong>CNIC information</strong>, aur <strong>live tracking</strong> ke claims ki sachai samjhayenge. Video mein demo ke liye <strong>Multi Info</strong> website ka istemal dikhaya gaya — lekin ye sirf educational demonstration hai. <strong>Illegal access</strong> ya privacy violation encourage nahi kiya jayega. Apni ya authorised information check karne ke liye hi methods use karein.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Aaj kal social media aur WhatsApp par bohot si videos aur posts circulate hoti hain jo claim karti hain ke \"sab SIM data\" ya \"CNIC database\" kisi bhi shakhs ka track kar sakte hain. Is video aur is blog ka maqsad in claims ko fact-check karna, legal boundaries samjhana, aur aapko batana hai ke aap apni information ko kaise <strong>secure</strong> rakh sakte hain. Video mein maine ek third-party tool — <strong>Multi Info</strong> — ka demonstration diya taake audience ko dikha sakoon ke public/consent-based tools kis had tak kaam karte hain aur unki limitations kya hain.</p>\n\n    <h2>Video me kya cover kiya gaya hai</h2>\n    <ul>\n      <li>✅ Multi Info website ka safe demo (sirf public/consent-based data ke liye)</li>\n      <li>✅ SIM data aur CNIC info ke ahem facts (educational)</li>\n      <li>✅ Kaun si cheezein legal hain aur kaun si illegal</li>\n      <li>✅ Apni SIM/CNIC information ko check karne ke <strong>authorised</strong> tareeqay</li>\n      <li>✅ Privacy protection aur SIM fraud se bachne ke tips</li>\n      <li>✅ Common myths vs reality</li>\n    </ul>\n\n    <h2>Kaise maine <em>Multi Info</em> website ka demo dikhaya (high-level)</h2>\n    <p>Yeh zaroori hai ke demo sirf educational raahe — is liye main yahan sirf high-level steps bata raha hoon jo video me show kiye gaye thay. In steps ka maqsad aapko samjhana hai ke public/consent-based tools ko kaise responsibly evaluate karna chahiye — detailed exploitative steps nahi.</p>\n    <ul>\n      <li><strong>Website authenticity check:</strong> Pehle domain aur website ki authenticity dekhi (SSL, about page, contact info) — trusted sources ko tarjeeh dein.</li>\n      <li><strong>Public/consent-based search:</strong> Demo me sirf apne khud ke number/CNIC ya woh sample data use kiya gaya jo public ya consent-based tha — kisi doosre ki private details search ya access nahi ki gayi.</li>\n      <li><strong>Result verification:</strong> Jo results Multi Info ne dikhaye unko cross-check kiya gaya — jaise operator app ya official kanal se match karna — taake false/old data identify ki ja sake.</li>\n      <li><strong>Limitations highlight ki:</strong> Maine video me clearly bataya ke third-party sites ke results kam reliable ho sakte hain, aur woh complete SIM/CNIC records provide nahi karte (aur agar claim karte hain to woh suspicious hain).</li>\n      <li><strong>Follow-up safe actions:</strong> Agar koi discrepancy mili to operator ke verified helpline aur official government portals ko contact karne ki salah di gayi — bina legal consent ke koi action na lein.</li>\n    </ul>\n\n    <h2>Important Legal &amp; Ethical Notice</h2>\n    <p><strong>Dhyan:</strong> Kisi bhi shakhs ki personal information jaise CNIC details, location, ya SIM records bina unki explicit consent ke access karna illegal ho sakta hai. Video me jo Multi Info demo dikhaya gaya, woh sirf educational purpose ke liye tha aur maine emphasise kiya ke sensitive matters ke liye official/authorised channels hi use karein. Agar aap research ya verification kar rahe hain to hamesha consent aur law ka khayal rakhein.</p>\n\n    <h2>Apni SIM/CNIC details ko legal tareeqay se kaise check karein (high-level)</h2>\n    <p>Yahan kuch general, lawful options diye gaye hain jo aam tor par available hotay hain — lekin hamesha official channels ka hi use karein:</p>\n    <ul>\n      <li><strong>Mobile operator apps / official websites:</strong> Jazz, Zong, Telenor, Ufone waghera ki official apps aur customer portals par apne registered account se apni SIM aur account details check kar sakte hain.</li>\n      <li><strong>USSD aur SIM settings:</strong> Apne device me SIM settings ya operator ke verified short codes se apni SIM status ya registered number check karen — yeh sirf aapke apne SIM ke liye hota hai.</li>\n      <li><strong>Official government portals:</strong> CNIC verification ya identity-related services ke liye NADRA ya relevant government services ka hi rasta istemal karein.</li>\n      <li><strong>Customer care &amp; service centres:</strong> Agar aapko duplicate SIM ya unauthorised activation ka shuba ho, to operator ke authorised centers par jaa kar identity proof se complaint register karen.</li>\n    </ul>\n\n    <h2>Live tracking — haqeeqat kya hai?</h2>\n    <p>\"Live tracking\" (kisi shakhs ka real-time location follow karna) sirf tab legal hota hai jab:</p>\n    <ol>\n      <li>Target person ne khud consent de di ho (jaise family tracking apps jinme dono parties ki permission ho), ya</li>\n      <li>Law enforcement ke paas legal warrant ho ya authorised procedure follow kiya gaya ho.</li>\n    </ol>\n    <p>Multi Info jaisi third-party sites kabhi-kabhi sensational claims karti hain; video me maine yeh bataya ke in claims ko sceptically lena chahiye aur unki authenticity, privacy policy, aur legal standing confirm karni chahiye.</p>\n\n    <h2>Privacy &amp; SIM Fraud se bachne ke practical tips</h2>\n    <ul>\n      <li><strong>Apne CNIC aur SIM details share na karein</strong> jab tak zaroori na ho — kisi unknown website ya social post par kabhi na daalein.</li>\n      <li><strong>Two-factor authentication (2FA)</strong> enable karein; possible alternative authenticator apps consider karein taake SMS-based vulnerabilities kam hon.</li>\n      <li><strong>SIM swap fraud se protect karein:</strong> Operator par biometric/identity verification enable karwaein jahan available ho, aur suspicious activity turant report karein.</li>\n      <li><strong>Official channels use karein:</strong> Sirf operator ke verified helplines aur government portals par hi apni queries/complaints bhejein.</li>\n      <li><strong>Strong passwords &amp; device security:</strong> Phone lock, biometric, screen lock aur updated OS use karein.</li>\n    </ul>\n\n    <h2>Myths vs Reality</h2>\n    <p><strong>Myth:</strong> \"Koi bhi aadmi internet se kisi ka CNIC nikal sakta hai.\" <br>\n    <strong>Reality:</strong> Publicly available sources se limited information mil sakti hai; lekin complete CNIC records aur private SIM logs generally protected hote hain aur unauthorised access illegal hai. Multi Info jaise tools bhi aksar limited ya public data hi show karte hain — aur unka accuracy level vary kar sakta hai.</p>\n\n    <p><strong>Myth:</strong> \"Ek simple free tool se aap kisi ka live location track kar sakte ho.\" <br>\n    <strong>Reality:</strong> Legitimate real-time tracking services require consent (ya legal order). Free tools aksar galat, spammy, ya malicious ho sakte hain.</p>\n\n    <h2>Conclusion</h2>\n    <p>Agar aap video dekh rahe hain to yaad rakhein: <strong>knowledge power ke saath responsibility bhi aati hai.</strong> Is blog aur video ka maksad aapko educate karna hai — na ke kisi ki privacy invade karna. Video me maine Multi Info ka demo is liye dikhaya ke aapko real-world example mile ke third-party tools kya dikha sakte hain aur unki limitations kya hoti hain. Apni aur apne family ki information secure rakhne ki aadatein develop karein, aur agar kabhi kisi suspicious cheez ka samna ho to authorised channels par report karein.</p>\n\n    <p>👉 Agar aap chahte hain, agle videos me main <strong>operator-specific authorised steps</strong> (jaise official app walkthroughs, complaint filing process, aur fraud reporting) practical aur safe tareeqay se dikhane ka plan karunga — bina kisi illegal method ke.</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> Multi Info Demo, SIM Privacy, CNIC Security, SIM Fraud Prevention, Telecom Safety Pakistan, Legal Notice, Privacy Tips, How to Check SIM Details (Legal)</p>\n  </footer>\n</article>`,
+    category: "technology",
+    thumbnail: "images/blogs_images/sim_databases.jpg",
+    videoId: "https://youtu.be/7nEi5khRuB4?si=S_fkpoP4QT7zRM39",
+    publishedAt: new Date(Date.now() - 86400000).toISOString(),
+    duration: "14:10",
+    viewCount: "5.6K",
+    likeCount: "480",
+    tags: ["sim database", "cnic info", "live tracking", "privacy", "legal"]
+  }, {
+    id: 21,
+    title: "Fix 'Open with Code' Issue & Install VS Code | Easy Step-by-Step Guide",
+    excerpt: "Is tutorial me aap seekhenge kaise Visual Studio Code me 'Open with Code' ka problem solve karte hain. Step-by-step installation aur fix guide beginners ke liye simple aur clear explanation ke sath.",
+    content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">Fix 'Open with Code' Issue & Install VS Code | Easy Step-by-Step Guide</h1>\n    <p class=\"post-excerpt\">Is video tutorial me hum cover karenge kaise Visual Studio Code ke <strong>'Open with Code'</strong> issue ko fix kiya jata hai. Ye problem aksar tab hoti hai jab aap VS Code install karte ho lekin context menu option appear nahi hota. Yahan aapko complete <strong>installation aur fix process</strong> milegi.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Agar aapne abhi abhi <strong>Visual Studio Code</strong> install kiya hai aur aapke right-click context menu me <em>'Open with Code'</em> option show nahi ho raha, to tension lene ki zaroorat nahi. Ye ek common problem hai aur is video me aapko easy solution milega.</p>\n\n    <h2>Features Covered</h2>\n    <ul>\n      <li>✅ Visual Studio Code installation ka proper process</li>\n      <li>✅ Context menu me <em>'Open with Code'</em> option enable karna</li>\n      <li>✅ Windows setup aur registry fix steps</li>\n      <li>✅ Easy aur beginner-friendly explanation</li>\n    </ul>\n\n    <h2>Why This Guide?</h2>\n    <p>Bohot se beginners ko VS Code install karne ke baad ye issue face hota hai jisme <em>'Open with Code'</em> option missing hota hai. Ye guide specially unke liye banayi gayi hai jo coding start kar rahe hain aur apne workflow ko smooth banana chahte hain.</p>\n\n    <h2>Step-by-Step Process</h2>\n    <p>Video me practically har step dikhaya gaya hai:</p>\n    <ol>\n      <li>Visual Studio Code ka latest version download karna</li>\n      <li>Installation ke waqt required checkboxes tick karna (add to PATH, add context menu)</li>\n      <li>Agar pehle se install hai to repair ya modify installation</li>\n      <li>Context menu aur registry ke issues ko fix karna</li>\n      <li>Final testing to verify ke <em>'Open with Code'</em> option aa gaya hai</li>\n    </ol>\n\n    <h2>Conclusion</h2>\n    <p><strong>Visual Studio Code</strong> ek powerful code editor hai, aur agar aap isko properly setup karte ho to aapka workflow bohot easy ho jata hai. <em>'Open with Code'</em> option ek simple lekin useful feature hai jo coding speed badha deta hai. Is guide ko follow karke aap easily is issue ko fix kar sakte ho.</p>\n    <p>👉 Complete practical demonstration ke liye neeche video zaroor dekhein. Aur agar video pasand aaye to like, share aur subscribe karna na bhoolein!</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> Visual Studio Code, Open with Code Fix, VS Code Installation, Coding Help, Tech Tutorials, VS Code Tips, Learn Coding 2025</p>\n  </footer>\n</article>`,
+    category: "programming",
+    thumbnail: "images/blogs_images/Fix 'Open with Code' Issue.jpg",
+    videoId: "https://youtu.be/tdiohgleYDQ?si=1quL41AmXZjEFA_M",
+    publishedAt: new Date(Date.now() - 43200000).toISOString(),
+    duration: "8:30",
+    viewCount: "2.3K",
+    likeCount: "210",
+    tags: ["vs code", "open with code", "installation", "fix issue", "coding tutorial"]
+  }, {
+    id: 17,
+    title: "CM Punjab E-Taxi Scheme 2025 – 1100 Free Electric Taxis | Apply Online & Eligibility",
+    excerpt: "Punjab E-Taxi Scheme 2025 – Government ne 1100 free electric taxis provide karne ka plan launch kiya hai. Is blog me eligibility, apply process, required documents aur full guide diya gaya hai.",
+    content: `<article class="blog-post">
   <header class="post-header">
     <h1 class="post-title">CM Punjab E-Taxi Scheme 2025 – 1100 Free Electric Taxis | Eligibility & Apply Online</h1>
     <p class="post-excerpt">Punjab Government ne CM Maryam Nawaz ke zariye Pakistan ki sabse badi rozgar aur green transport scheme launch ki hai. Is scheme me eligible applicants ko <strong>1100 brand new electric taxis</strong> (Honri VC20/VC30) milegi, wo bhi interest-free installments aur zero fuel cost ke saath.</p>
@@ -1418,42 +1418,90 @@ git push -u origin main
     <p><strong>Tags:</strong> Punjab E-Taxi Scheme 2025, CM Youth Program, Electric Taxi Pakistan, Free Taxi Scheme, Rozgar Scheme Punjab, Women Drivers Quota, Sustainable Transport, Apply Online E-Taxi, Maryam Nawaz, Punjab Govt Jobs 2025</p>
   </footer>
 </article>`
-        , category: "news&updates",
-        thumbnail: "images/blogs_images/e_taxi.png",
-        videoId: "https://youtu.be/PkUIvBw80L8?si=ktPB5lt6weYmgrhv",
-        publishedAt: new Date(Date.now() - 604800000).toISOString(),
-        duration: "12:30",
-        viewCount: "4.2K",
-        likeCount: "350",
-        tags: ["e-taxi scheme", "electric taxi", "punjab govt", "rozgar scheme"]
-    },{
-        id: 22,
-        title: "G++/GCC Error Solved! | New Solution to Solve C++ Compiler Problem | Full Guide about Visual Studio",
-        excerpt: "Is tutorial me aap seekhenge kaise Visual Studio Code me g++/gcc compiler errors ko fix kiya jata hai. Step-by-step installation, setup aur troubleshooting beginners ke liye easy explanation ke sath.",
-        content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">G++/GCC Error Solved! | New Solution to Solve C++ Compiler Problem | Full Guide about Visual Studio</h1>\n    <p class=\"post-excerpt\">Is video me hum baat karenge common <strong>g++/gcc error</strong> ke baare me jo aksar <strong>Visual Studio Code</strong> use karte waqt C++ beginners ko face hota hai. Is tutorial me aapko milega ek complete step-by-step solution jisme hum <strong>Visual Studio install karna, environment setup karna</strong> aur compiler issue ko permanently solve karna seekhenge.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Agar aap C++ programming start kar rahe ho aur <strong>Visual Studio Code</strong> me g++ ya gcc ka error aa raha hai to aap akelay nahi ho. Ye problem beginners ke liye common hai lekin sahi setup aur configuration se isko easily fix kiya ja sakta hai. Is video me main aapko complete practical steps dikhata hoon jo aapke compiler error ko solve karenge.</p>\n\n    <h2>Video me kya cover kiya gaya hai</h2>\n    <ul>\n      <li>✅ g++/gcc error ko samajhna aur troubleshoot karna</li>\n      <li>✅ <strong>Visual Studio</strong> ka proper installation process</li>\n      <li>✅ Environment path aur compiler settings ko setup karna</li>\n      <li>✅ C++ extension aur configuration problems ka solution</li>\n      <li>✅ Beginners ke liye step-by-step guide</li>\n      <li>✅ Full Visual Studio installation walkthrough</li>\n    </ul>\n\n    <h2>Why This Guide?</h2>\n    <p>Jab beginners C++ me coding start karte hain, to aksar <em>compiler not recognized</em> ya <em>g++ is not found</em> jese errors aate hain. Ye guide specially banayi gayi hai unke liye jo apna coding environment properly set karna chahte hain bina unnecessary confusion ke.</p>\n\n    <h2>Step-by-Step Process</h2>\n    <p>Video me practically har step explain kiya gaya hai, jisme include hai:</p>\n    <ol>\n      <li><strong>Visual Studio download aur installation:</strong> Latest installer ka use karke sahi workloads select karna.</li>\n      <li><strong>C++ development environment:</strong> Required components (MSVC compiler, Windows SDK) select karna.</li>\n      <li><strong>Path variables set karna:</strong> g++ aur gcc ko system path me add karna taake VS Code unhe recognize kar sake.</li>\n      <li><strong>VS Code extensions:</strong> C++ extension install karna aur configuration file (tasks.json, launch.json) set karna.</li>\n      <li><strong>Testing:</strong> Ek simple <code>Hello World</code> program run karke environment ko verify karna.</li>\n    </ol>\n\n    <h2>Extra Tips</h2>\n    <ul>\n      <li>🔹 Agar aap pehle se VS Code install kar chuke ho, to installation repair option use karna best hota hai.</li>\n      <li>🔹 Check karein ke compiler aur debugger ka version compatible ho.</li>\n      <li>🔹 Agar error persist kare to extensions ko reset karke fresh configuration try karein.</li>\n    </ul>\n\n    <h2>Conclusion</h2>\n    <p><strong>g++/gcc error</strong> beginners ke liye frustrating ho sakta hai lekin sahi setup ke baad aap easily apni C++ journey start kar sakte ho. <strong>Visual Studio installation aur environment setup</strong> ka process follow karne ke baad aapka coding workflow smooth ho jayega.</p>\n    <p>👉 Pure demonstration aur detailed explanation ke liye neeche video dekhein. Video pasand aaye to like, share aur subscribe karna na bhoolein!</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> C++ Tutorial, g++/gcc Error Fix, Visual Studio Installation, Coding for Beginners, C++ Setup Guide, Compiler Problems, Learn C++ 2025</p>\n  </footer>\n</article>`,
-        category: "programming",
-        thumbnail: "images/blogs_images/Gcc Error Solved.jpg",
-        videoId: "https://youtu.be/HLS9OXdJwUk?si=-2PFLu5kSpD4e8cr",
-        publishedAt: new Date(Date.now() - 21600000).toISOString(),
-        duration: "11:15",
-        viewCount: "3.1K",
-        likeCount: "290",
-        tags: ["gcc error", "g++ error", "visual studio", "c++ tutorial", "compiler fix"]
-    }, {
-        id: 23,
-        title: "How to Create a Backend of Password Generator in Python | Step-by-Step Guide for Beginners",
-        excerpt: "Is tutorial me aap seekhenge kaise Python ka use karke ek secure aur customizable password generator backend me banaya jata hai. Beginners ke liye simple explanation aur step-by-step guidance.",
-        content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">How to Create a Backend of Password Generator in Python | Step-by-Step Guide for Beginners</h1>\n    <p class=\"post-excerpt\">Is video me hum ek <strong>Password Generator</strong> project ka backend banate hain using <strong>Python</strong>. Ye project beginners ke liye perfect hai jo backend development aur password security ke concepts seekhna chahte hain. Isme hum step-by-step explain karte hain kaise Python ke built-in modules (random, string) ka use karke strong aur customizable passwords generate kiye jate hain.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Passwords aaj ke digital world me bohot important hote hain. Secure aur strong passwords banane ke liye ek <em>Password Generator</em> project kaafi useful hai. Python iske liye best language hai kyunki isme aap easily <strong>random numbers, characters aur symbols</strong> ka use karke unique passwords bana sakte ho.</p>\n\n    <h2>Video me kya cover hai?</h2>\n    <ul>\n      <li>✅ Python backend basics aur password generation ka idea</li>\n      <li>✅ Necessary libraries (random aur string) ka use</li>\n      <li>✅ Character sets create karna (letters, digits, symbols)</li>\n      <li>✅ Password length aur complexity ko customize karna</li>\n      <li>✅ Password security ke importance ko samajhna</li>\n      <li>✅ Clean aur efficient backend code likhne ke tips</li>\n    </ul>\n\n    <h2>Concept Explanation (Without Full Code)</h2>\n    <p>Project ka backend simple aur logical hai. Pehle hum <strong>string module</strong> se alphabets, digits aur symbols ka set lete hain. Fir <strong>random module</strong> ka use karke in characters me se random selection hota hai. User password ki length aur complexity decide kar sakta hai (jaise numbers include karne hain ya nahi).</p>\n\n    <p>Is tarah har dafa jab function call hota hai, ek unique aur unpredictable password generate hota hai. Ye process beginners ko sikhaata hai backend development aur Python ke built-in tools ka practical use.</p>\n\n    <h2>Why This Project?</h2>\n    <p>Ye project unke liye best hai jo coding start kar rahe hain aur chahte hain ki unka pehla project <strong>real-world use case</strong> rakhta ho. Password Generator sirf ek project nahi, balki ek <em>cybersecurity concept</em> ko samajhne ka bhi tareeqa hai.</p>\n\n    <h2>Extra Tips</h2>\n    <ul>\n      <li>🔹 Passwords me always mix of uppercase, lowercase, digits aur symbols use karein.</li>\n      <li>🔹 Minimum 8-12 characters ka password recommended hai.</li>\n      <li>🔹 Avoid predictable patterns (12345, qwerty, etc.).</li>\n    </ul>\n\n    <h2>Conclusion</h2>\n    <p>Aapne seekha kaise Python ke backend me <strong>Password Generator</strong> banaya ja sakta hai bina zyada complex code likhe. Is project se aapko backend logic, libraries ka use, aur cybersecurity ka basic idea samajhne me madad milegi. Beginners ke liye ye ek must-try project hai.</p>\n    <p>👉 Pura demonstration aur step-by-step walkthrough ke liye neeche video dekhein. Aur haan, video ko like, share aur subscribe zaroor karein!</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> Python Tutorial, Password Generator, Python Backend, Cybersecurity, Coding for Beginners, Random Module, String Module, Python Projects 2025</p>\n  </footer>\n</article>`,
+    , category: "news&updates",
+    thumbnail: "images/blogs_images/e_taxi.png",
+    videoId: "https://youtu.be/PkUIvBw80L8?si=ktPB5lt6weYmgrhv",
+    publishedAt: new Date(Date.now() - 604800000).toISOString(),
+    duration: "12:30",
+    viewCount: "4.2K",
+    likeCount: "350",
+    tags: ["e-taxi scheme", "electric taxi", "punjab govt", "rozgar scheme"]
+  }, {
+    id: 22,
+    title: "G++/GCC Error Solved! | New Solution to Solve C++ Compiler Problem | Full Guide about Visual Studio",
+    excerpt: "Is tutorial me aap seekhenge kaise Visual Studio Code me g++/gcc compiler errors ko fix kiya jata hai. Step-by-step installation, setup aur troubleshooting beginners ke liye easy explanation ke sath.",
+    content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">G++/GCC Error Solved! | New Solution to Solve C++ Compiler Problem | Full Guide about Visual Studio</h1>\n    <p class=\"post-excerpt\">Is video me hum baat karenge common <strong>g++/gcc error</strong> ke baare me jo aksar <strong>Visual Studio Code</strong> use karte waqt C++ beginners ko face hota hai. Is tutorial me aapko milega ek complete step-by-step solution jisme hum <strong>Visual Studio install karna, environment setup karna</strong> aur compiler issue ko permanently solve karna seekhenge.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Agar aap C++ programming start kar rahe ho aur <strong>Visual Studio Code</strong> me g++ ya gcc ka error aa raha hai to aap akelay nahi ho. Ye problem beginners ke liye common hai lekin sahi setup aur configuration se isko easily fix kiya ja sakta hai. Is video me main aapko complete practical steps dikhata hoon jo aapke compiler error ko solve karenge.</p>\n\n    <h2>Video me kya cover kiya gaya hai</h2>\n    <ul>\n      <li>✅ g++/gcc error ko samajhna aur troubleshoot karna</li>\n      <li>✅ <strong>Visual Studio</strong> ka proper installation process</li>\n      <li>✅ Environment path aur compiler settings ko setup karna</li>\n      <li>✅ C++ extension aur configuration problems ka solution</li>\n      <li>✅ Beginners ke liye step-by-step guide</li>\n      <li>✅ Full Visual Studio installation walkthrough</li>\n    </ul>\n\n    <h2>Why This Guide?</h2>\n    <p>Jab beginners C++ me coding start karte hain, to aksar <em>compiler not recognized</em> ya <em>g++ is not found</em> jese errors aate hain. Ye guide specially banayi gayi hai unke liye jo apna coding environment properly set karna chahte hain bina unnecessary confusion ke.</p>\n\n    <h2>Step-by-Step Process</h2>\n    <p>Video me practically har step explain kiya gaya hai, jisme include hai:</p>\n    <ol>\n      <li><strong>Visual Studio download aur installation:</strong> Latest installer ka use karke sahi workloads select karna.</li>\n      <li><strong>C++ development environment:</strong> Required components (MSVC compiler, Windows SDK) select karna.</li>\n      <li><strong>Path variables set karna:</strong> g++ aur gcc ko system path me add karna taake VS Code unhe recognize kar sake.</li>\n      <li><strong>VS Code extensions:</strong> C++ extension install karna aur configuration file (tasks.json, launch.json) set karna.</li>\n      <li><strong>Testing:</strong> Ek simple <code>Hello World</code> program run karke environment ko verify karna.</li>\n    </ol>\n\n    <h2>Extra Tips</h2>\n    <ul>\n      <li>🔹 Agar aap pehle se VS Code install kar chuke ho, to installation repair option use karna best hota hai.</li>\n      <li>🔹 Check karein ke compiler aur debugger ka version compatible ho.</li>\n      <li>🔹 Agar error persist kare to extensions ko reset karke fresh configuration try karein.</li>\n    </ul>\n\n    <h2>Conclusion</h2>\n    <p><strong>g++/gcc error</strong> beginners ke liye frustrating ho sakta hai lekin sahi setup ke baad aap easily apni C++ journey start kar sakte ho. <strong>Visual Studio installation aur environment setup</strong> ka process follow karne ke baad aapka coding workflow smooth ho jayega.</p>\n    <p>👉 Pure demonstration aur detailed explanation ke liye neeche video dekhein. Video pasand aaye to like, share aur subscribe karna na bhoolein!</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> C++ Tutorial, g++/gcc Error Fix, Visual Studio Installation, Coding for Beginners, C++ Setup Guide, Compiler Problems, Learn C++ 2025</p>\n  </footer>\n</article>`,
+    category: "programming",
+    thumbnail: "images/blogs_images/Gcc Error Solved.jpg",
+    videoId: "https://youtu.be/HLS9OXdJwUk?si=-2PFLu5kSpD4e8cr",
+    publishedAt: new Date(Date.now() - 21600000).toISOString(),
+    duration: "11:15",
+    viewCount: "3.1K",
+    likeCount: "290",
+    tags: ["gcc error", "g++ error", "visual studio", "c++ tutorial", "compiler fix"]
+  }, {
+    id: 23,
+    title: "How to Create a Backend of Password Generator in Python | Step-by-Step Guide for Beginners",
+    excerpt: "Is tutorial me aap seekhenge kaise Python ka use karke ek secure aur customizable password generator backend me banaya jata hai. Beginners ke liye simple explanation aur step-by-step guidance.",
+    content: `<article class=\"blog-post\">\n  <header class=\"post-header\">\n    <h1 class=\"post-title\">How to Create a Backend of Password Generator in Python | Step-by-Step Guide for Beginners</h1>\n    <p class=\"post-excerpt\">Is video me hum ek <strong>Password Generator</strong> project ka backend banate hain using <strong>Python</strong>. Ye project beginners ke liye perfect hai jo backend development aur password security ke concepts seekhna chahte hain. Isme hum step-by-step explain karte hain kaise Python ke built-in modules (random, string) ka use karke strong aur customizable passwords generate kiye jate hain.</p>\n  </header>\n\n  <section class=\"post-content\">\n    <h2>Intro</h2>\n    <p>Passwords aaj ke digital world me bohot important hote hain. Secure aur strong passwords banane ke liye ek <em>Password Generator</em> project kaafi useful hai. Python iske liye best language hai kyunki isme aap easily <strong>random numbers, characters aur symbols</strong> ka use karke unique passwords bana sakte ho.</p>\n\n    <h2>Video me kya cover hai?</h2>\n    <ul>\n      <li>✅ Python backend basics aur password generation ka idea</li>\n      <li>✅ Necessary libraries (random aur string) ka use</li>\n      <li>✅ Character sets create karna (letters, digits, symbols)</li>\n      <li>✅ Password length aur complexity ko customize karna</li>\n      <li>✅ Password security ke importance ko samajhna</li>\n      <li>✅ Clean aur efficient backend code likhne ke tips</li>\n    </ul>\n\n    <h2>Concept Explanation (Without Full Code)</h2>\n    <p>Project ka backend simple aur logical hai. Pehle hum <strong>string module</strong> se alphabets, digits aur symbols ka set lete hain. Fir <strong>random module</strong> ka use karke in characters me se random selection hota hai. User password ki length aur complexity decide kar sakta hai (jaise numbers include karne hain ya nahi).</p>\n\n    <p>Is tarah har dafa jab function call hota hai, ek unique aur unpredictable password generate hota hai. Ye process beginners ko sikhaata hai backend development aur Python ke built-in tools ka practical use.</p>\n\n    <h2>Why This Project?</h2>\n    <p>Ye project unke liye best hai jo coding start kar rahe hain aur chahte hain ki unka pehla project <strong>real-world use case</strong> rakhta ho. Password Generator sirf ek project nahi, balki ek <em>cybersecurity concept</em> ko samajhne ka bhi tareeqa hai.</p>\n\n    <h2>Extra Tips</h2>\n    <ul>\n      <li>🔹 Passwords me always mix of uppercase, lowercase, digits aur symbols use karein.</li>\n      <li>🔹 Minimum 8-12 characters ka password recommended hai.</li>\n      <li>🔹 Avoid predictable patterns (12345, qwerty, etc.).</li>\n    </ul>\n\n    <h2>Conclusion</h2>\n    <p>Aapne seekha kaise Python ke backend me <strong>Password Generator</strong> banaya ja sakta hai bina zyada complex code likhe. Is project se aapko backend logic, libraries ka use, aur cybersecurity ka basic idea samajhne me madad milegi. Beginners ke liye ye ek must-try project hai.</p>\n    <p>👉 Pura demonstration aur step-by-step walkthrough ke liye neeche video dekhein. Aur haan, video ko like, share aur subscribe zaroor karein!</p>\n  </section>\n\n  <footer class=\"post-footer\">\n    <p><strong>Tags:</strong> Python Tutorial, Password Generator, Python Backend, Cybersecurity, Coding for Beginners, Random Module, String Module, Python Projects 2025</p>\n  </footer>\n</article>`,
 
-        category: "programming",
-        thumbnail: "images/blogs_images/password_gen.jpg",
-        videoId: "https://youtu.be/G3BVufWtMnQ?si=hCxkAnNmVzCaVGZa",
-        publishedAt: new Date(Date.now() - 10800000).toISOString(),
-        duration: "12:05",
-        viewCount: "2.7K",
-        likeCount: "250",
-        tags: ["python", "password generator", "backend development", "coding tutorial", "cybersecurity"]
-    }
+    category: "programming",
+    thumbnail: "images/blogs_images/password_gen.jpg",
+    videoId: "https://youtu.be/G3BVufWtMnQ?si=hCxkAnNmVzCaVGZa",
+    publishedAt: new Date(Date.now() - 10800000).toISOString(),
+    duration: "12:05",
+    viewCount: "2.7K",
+    likeCount: "250",
+    tags: ["python", "password generator", "backend development", "coding tutorial", "cybersecurity"]
+  }, {
+    id: 24,
+    title: "Complete Trading Course 2025 | Learn & Master Trading Online",
+    excerpt: "Step-by-step trading course guide. Access full free lectures and materials, and contact for advanced paid version.",
+    content: `<article class="blog-post">
+  <header class="post-header">
+    <h1 class="post-title">Complete Trading Course 2025 | Learn & Master Trading Online</h1>
+    <p class="post-excerpt">Agar aap trading seekhna chahte hain to yeh **complete course guide** aap ke liye perfect hai. Is blog me aapko **full lectures access** aur introductory video ka link diya gaya hai, aur aapko pata chalega ke kaise step-by-step trading skills improve kar sakte hain.</p>
+  </header>
+
+  <section class="post-content">
+    <h2>Course Overview</h2>
+    <p>Yeh course specially design kiya gaya hai taake beginners se le kar intermediate level tak ke traders apni skills enhance kar saken. Aapko **lecture videos aur materials** provide kiye gaye hain jo aap free me access kar sakte hain.</p>
+
+    <h2>Access Full Course & Videos</h2>
+    <p>Start learning by clicking the links below:</p>
+    <ul>
+      <li>🎥 <strong>Introductory Video:</strong> <a href="https://drive.google.com/file/d/136S8QRVfOJsu7fRPSmeZjdyWOqTuofB3/view?usp=drivesdk" target="_blank" rel="noopener">Watch Video</a></li>
+      <li>📂 <strong>All Lectures Folder:</strong> <a href="https://drive.google.com/drive/folders/1ObWH0y44nD07MLvCHK99UiKH-fePSWg3" target="_blank" rel="noopener">Access Full Lectures</a></li>
+    </ul>
+
+    <h2>Who Should Take This Course?</h2>
+    <ul>
+      <li>📈 Beginners – Jo trading seekhna chahte hain</li>
+      <li>💹 Students – Market analysis aur trading skills improve karne ke liye</li>
+      <li>👨‍💻 Freelancers – Financial skills aur practical trading seekhne ke liye</li>
+    </ul>
+
+    <h2>Advanced Version Available</h2>
+    <p>Agar aap isse aur **advanced trading knowledge aur strategies** seekhna chahte hain, to aap **paid version** buy kar sakte hain. For purchase or queries, WhatsApp par contact karein: <strong>+92-3107577184</strong>. Advanced version me aapko detailed strategies aur real-life case studies milenge.</p>
+
+    <h2>Conclusion</h2>
+    <p>Yeh complete trading course aapko **basic to intermediate skills** sikhata hai aur aapko ready karta hai market me confidently trade karne ke liye. Free lectures access karein aur growth start karein! 💡</p>
+  </section>
+
+  <footer class="post-footer">
+    <p><strong>Tags:</strong> Trading Course, Free Trading Lectures, Online Trading, Learn Trading, Stock Market, Advanced Trading, Beginners Trading, Trading 2025</p>
+  </footer>
+</article>`,
+    category: "trading",
+    thumbnail: "images/blogs_images/trading_course.png",
+    videoId: "https://drive.google.com/file/d/136S8QRVfOJsu7fRPSmeZjdyWOqTuofB3/view?usp=drivesdk",
+    publishedAt: new Date(Date.now()).toISOString(),
+    duration: "N/A",
+    viewCount: "N/A",
+    likeCount: "N/A",
+    tags: ["trading course", "free lectures", "online trading", "learn trading", "stock market", "advanced trading"]
+  },
+
 
 ];
 
@@ -1461,41 +1509,41 @@ git push -u origin main
 // CATEGORY DEFINITIONS
 // ========================================
 const categories = {
-    "programming": {
-        name: "Programming",
-        icon: "fas fa-code",
-        description: "Coding tutorials, programming languages, and software development guides"
-    },
-    "freelancing": {
-        name: "Freelancing",
-        icon: "fas fa-laptop-code",
-        description: "Freelancing tips, platform guides, and client acquisition strategies"
-    },
-    "government-schemes": {
-        name: "Government Schemes",
-        icon: "fas fa-landmark",
-        description: "Latest government opportunities, youth programs, and educational schemes"
-    },
-     "earning": {
-        name: "Online Earning",
-        icon: "fas fa-dollar-sign",
-        description: "Multiple online earning methods and passive income strategies"
-    },
-    "fitness": {
-        name: "Fitness Tips",
-        icon: "fas fa-dumbbell",
-        description: "Workout routines, nutrition advice, health guidance, and fitness motivation"
-    },
-    "trading": {
-        name: "Trading & Courses",
-        icon: "fas fa-chart-line",
-        description: "Trading blogs, market analysis, and premium paid courses for investors"
-    },
-    "digital-marketing": {
-        name: "Digital Marketing",
-        icon: "fas fa-bullhorn",
-        description: "SEO strategies, social media marketing, and online advertising techniques"
-    },
+  "programming": {
+    name: "Programming",
+    icon: "fas fa-code",
+    description: "Coding tutorials, programming languages, and software development guides"
+  },
+  "freelancing": {
+    name: "Freelancing",
+    icon: "fas fa-laptop-code",
+    description: "Freelancing tips, platform guides, and client acquisition strategies"
+  },
+  "government-schemes": {
+    name: "Government Schemes",
+    icon: "fas fa-landmark",
+    description: "Latest government opportunities, youth programs, and educational schemes"
+  },
+  "earning": {
+    name: "Online Earning",
+    icon: "fas fa-dollar-sign",
+    description: "Multiple online earning methods and passive income strategies"
+  },
+  "fitness": {
+    name: "Fitness Tips",
+    icon: "fas fa-dumbbell",
+    description: "Workout routines, nutrition advice, health guidance, and fitness motivation"
+  },
+  "trading": {
+    name: "Trading & Courses",
+    icon: "fas fa-chart-line",
+    description: "Trading blogs, market analysis, and premium paid courses for investors"
+  },
+  "digital-marketing": {
+    name: "Digital Marketing",
+    icon: "fas fa-bullhorn",
+    description: "SEO strategies, social media marketing, and online advertising techniques"
+  },
 };
 
 // ========================================
@@ -1504,53 +1552,53 @@ const categories = {
 
 // Get all blog posts
 function getAllBlogPosts() {
-    return blogPosts;
+  return blogPosts;
 }
 
 // Get blog post by ID
 function getBlogPostById(id) {
-    return blogPosts.find(post => post.id === parseInt(id));
+  return blogPosts.find(post => post.id === parseInt(id));
 }
 
 // Get blog posts by category
 function getBlogPostsByCategory(category) {
-    if (category === 'all') {
-        return blogPosts;
-    }
-    return blogPosts.filter(post => post.category === category);
+  if (category === 'all') {
+    return blogPosts;
+  }
+  return blogPosts.filter(post => post.category === category);
 }
 
 // Search blog posts
 function searchBlogPosts(query) {
-    if (!query || query.trim() === '') {
-        return blogPosts;
-    }
+  if (!query || query.trim() === '') {
+    return blogPosts;
+  }
 
-    const searchTerm = query.toLowerCase();
-    return blogPosts.filter(post =>
-        post.title.toLowerCase().includes(searchTerm) ||
-        post.excerpt.toLowerCase().includes(searchTerm) ||
-        post.tags.some(tag => tag.toLowerCase().includes(searchTerm)) ||
-        post.category.toLowerCase().includes(searchTerm)
-    );
+  const searchTerm = query.toLowerCase();
+  return blogPosts.filter(post =>
+    post.title.toLowerCase().includes(searchTerm) ||
+    post.excerpt.toLowerCase().includes(searchTerm) ||
+    post.tags.some(tag => tag.toLowerCase().includes(searchTerm)) ||
+    post.category.toLowerCase().includes(searchTerm)
+  );
 }
 
 // Get all categories
 function getAllCategories() {
-    return categories;
+  return categories;
 }
 
 // Get category info
 function getCategoryInfo(categoryKey) {
-    return categories[categoryKey];
+  return categories[categoryKey];
 }
 
 // Export functions for use in other files
 window.BlogData = {
-    getAllBlogPosts,
-    getBlogPostById,
-    getBlogPostsByCategory,
-    searchBlogPosts,
-    getAllCategories,
-    getCategoryInfo
+  getAllBlogPosts,
+  getBlogPostById,
+  getBlogPostsByCategory,
+  searchBlogPosts,
+  getAllCategories,
+  getCategoryInfo
 };
