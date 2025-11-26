@@ -1563,7 +1563,103 @@ git push -u origin main
     viewCount: "3.5k",
     likeCount: "670",
     tags: ["body recomposition", "double body parts", "training guide", "fitness diet", "muscle gain", "fat loss", "workout plan"]
+}, {
+    id: 26,
+    title: "Weekly Gym Workout Plan 2025 | Muscle Group Focused Training",
+    excerpt: "Step-by-step weekly workout plan to target each muscle group effectively, including sets, reps, and optional cardio.",
+    content: `<article class="blog-post">
+  <header class="post-header">
+    <h1 class="post-title">Weekly Gym Workout Plan 2025 | Muscle Group Focused Training</h1>
+    <p class="post-excerpt">Apni fitness journey ko structured aur effective banayein! Ye **weekly workout plan** har major muscle group ko target karta hai, sets & reps ke saath, aur optional cardio guidance bhi deta hai.</p>
+  </header>
+
+  <section class="post-content">
+    <h2>Weekly Overview</h2>
+    <table>
+      <tr><th>Day</th><th>Muscle Group</th></tr>
+      <tr><td>Monday</td><td>Chest + Triceps</td></tr>
+      <tr><td>Tuesday</td><td>Back + Biceps</td></tr>
+      <tr><td>Wednesday</td><td>Shoulders + Abs</td></tr>
+      <tr><td>Thursday</td><td>Quads + Hamstrings</td></tr>
+      <tr><td>Friday</td><td>Biceps + Triceps</td></tr>
+      <tr><td>Saturday</td><td>Rest / Cardio + Core (Optional)</td></tr>
+      <tr><td>Sunday</td><td>Rest</td></tr>
+    </table>
+
+    <h2>Day 1 – Chest + Triceps</h2>
+    <ul>
+      <li>Flat Bench Press – 8, 10, 8, 6 reps</li>
+      <li>Incline Dumbbell Press – 10, 10, 8, 8 reps</li>
+      <li>Cable Fly / Pec Deck – 15, 12, 12, 10 reps</li>
+      <li>Tricep Pushdown – 12, 10, 10, 8 reps</li>
+      <li>Overhead Dumbbell Extension – 12, 10, 8 reps</li>
+      <li>Dips – 3 sets (to failure or assisted)</li>
+    </ul>
+
+    <h2>Day 2 – Back + Biceps</h2>
+    <ul>
+      <li>Pull-Ups / Lat Pulldown – 12, 10, 10, 8 reps</li>
+      <li>Barbell Row – 10, 8, 8, 6 reps</li>
+      <li>Seated Cable Row – 12, 10, 8, 8 reps</li>
+      <li>Dumbbell Pullover – 12, 10, 8 reps</li>
+      <li>Barbell Curl – 10, 8, 8, 6 reps</li>
+      <li>Incline Dumbbell Curl – 12, 10, 8 reps</li>
+    </ul>
+
+    <h2>Day 3 – Shoulders + Abs</h2>
+    <ul>
+      <li>Seated Shoulder Press – 10, 8, 8, 6 reps</li>
+      <li>Dumbbell Lateral Raise – 15, 12, 12, 10 reps</li>
+      <li>Reverse Pec Deck – 15, 12, 12, 10 reps</li>
+      <li>Upright Row – 10, 10, 8 reps</li>
+      <li>Hanging Leg Raise – 15, 15, 12 reps</li>
+      <li>Cable Crunch – 20, 15, 15 reps</li>
+    </ul>
+
+    <h2>Day 4 – Legs (Quads + Hamstrings)</h2>
+    <ul>
+      <li>Barbell Squat / Leg Press – 10, 8, 8, 6 reps</li>
+      <li>Walking Lunges – 12 each leg × 3 sets</li>
+      <li>Leg Extension – 15, 12, 10, 10 reps</li>
+      <li>Lying Leg Curl – 12, 10, 10, 8 reps</li>
+      <li>Romanian Deadlift – 10, 8, 8 reps</li>
+      <li>Standing Calf Raise – 20, 15, 15 reps</li>
+    </ul>
+
+    <h2>Day 5 – Arms (Biceps + Triceps)</h2>
+    <ul>
+      <li>Close-Grip Bench Press – 10, 8, 8, 6 reps</li>
+      <li>Tricep Pushdown – 12, 10, 10, 8 reps</li>
+      <li>Skull Crushers – 10, 8, 8 reps</li>
+      <li>Barbell Curl – 10, 8, 8, 6 reps</li>
+      <li>Hammer Curl – 12, 10, 10 reps</li>
+      <li>Preacher Curl – 12, 10, 8 reps</li>
+    </ul>
+
+    <h2>Day 6 – Rest / Optional Cardio & Core</h2>
+    <p>30–45 minutes light cardio (treadmill, cycling, elliptical) and core exercises if desired.</p>
+
+    <h2>Day 7 – Rest</h2>
+    <p>Full rest to allow muscle recovery and growth.</p>
+
+    <h2>Advanced / Paid Guidance</h2>
+    <p>Agar aap chahte hain ke aapko **personalized weekly workout aur diet plan** mile, to WhatsApp par contact karein: <strong>+92-3107577184</strong>. Ye plan aapke **body type, goals aur fitness level** ke hisaab se customized hoga.</p>
+  </section>
+
+  <footer class="post-footer">
+    <p><strong>Tags:</strong> Weekly Workout Plan, Gym Exercises, Muscle Groups, Chest, Back, Shoulders, Arms, Legs, Fitness Plan, Body Recomposition, Personal Training</p>
+  </footer>
+</article>`,
+    category: "fitness",
+    thumbnail: "images/blogs_images/weekly_workout.jpg",
+    videoId: "",
+    publishedAt: new Date(Date.now()).toISOString(),
+    duration: "N/A",
+    viewCount: "10.3k",
+    likeCount: "2.4k",
+    tags: ["weekly plan", "muscle group training", "gym workout", "body recomposition", "fitness guide"]
 }
+
 
 
 
