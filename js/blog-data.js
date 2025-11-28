@@ -124,7 +124,69 @@ const blogPosts = [
     viewCount: "4.5K",
     likeCount: "300",
     tags: ["free hosting", "github pages", "custom domain", "website upload", "students", "freelancers"]
-  }, {
+  },{
+    id: 27, 
+    title: "Best 5 Pakistani Apps That Actually Pay Money in 2026 (Real Review)",
+    excerpt: "Top 5 real earning apps in Pakistan 2026 that actually pay through JazzCash & Easypaisa. 100% real, tested & trusted.",
+    content: `
+<p>Online earning in Pakistan is booming in <strong>2026</strong>, and hundreds of new apps are launching every month. Lekin asli challenge yeh hota hai ke kaunsi apps <strong>real earning deti hain</strong> aur kaunsi sirf time waste karti hain.</p>
+
+<p>Is blog me main aapko batane ja raha hoon <strong>Top 5 Pakistani Earning Apps</strong> jo 2026 me bhi bilkul real payment deti hain — JazzCash, Easypaisa aur Bank transfer ke sath. Har app ka earning system, withdrawal method aur pros/cons bhi explain kiye gaye hain.</p>
+
+<h2>1. SnackVideo – Watch & Earn App (2026 Updated)</h2>
+<p>SnackVideo Pakistan me ab bhi sabse zyada use hone wali watch & earn app hai. Aap videos dekh kar, daily check-in, aur tasks complete karke coins earn karte hain jo baad me cash me convert ho jate hain.</p>
+<ul>
+  <li>🎉 No investment</li>
+  <li>💰 JazzCash & Easypaisa withdrawal</li>
+  <li>🚀 Fast payout</li>
+</ul>
+
+<h2>2. ClipClaps – Gaming + Watch & Earn</h2>
+<p>ClipClaps ek multi-earning app hai jisme aap videos dekh kar, mini games khel kar, surveys complete karke earning kar sakte hain. 2026 me bhi app reliable chal rahi hai.</p>
+<ul>
+  <li>🎮 Games + Tasks earning</li>
+  <li>💸 PayPal/Bank withdrawal (Payoneer supported)</li>
+  <li>✔ Trusted by millions</li>
+</ul>
+
+<h2>3. Roz Dhan – Task Earning App</h2>
+<p>Roz Dhan ek task-based earning app hai jisme aap news padh kar, tasks complete karke aur referrals la kar daily earning karte hain. Pakistan me withdrawal PayPal ke through hota hai.</p>
+
+<h2>4. Markaz App – Best Reselling Earning App</h2>
+<p>Markaz Pakistan ki sabse real & powerful earning apps me se ek hai. Aap bina investment ke products sell karte ho, aur jab order complete hota hai to aapko commission milta hai. Reselling se log monthly 20k–50k tak kama rahe hain.</p>
+<ul>
+  <li>📦 No investment needed</li>
+  <li>💳 JazzCash/Easypaisa/Bank payout</li>
+  <li>🚀 High earning potential</li>
+</ul>
+
+<h2>5. Fiverr App – Best Skill-Based Earning</h2>
+<p>Agar aap permanent & long-term earning chahte hain, to Fiverr best option hai. Aap graphic design, video editing, writing, AI services, programming ya kisi bhi skill ke through earning kar sakte hain.</p>
+<ul>
+  <li>🌍 Work with international clients</li>
+  <li>💸 Payoneer / Bank withdrawal</li>
+  <li>🎯 Highest earning app</li>
+</ul>
+
+<h2>Final Verdict</h2>
+<p>Agar aap easy earning chahte hain to SnackVideo, ClipClaps and Roz Dhan best hain. Agar serious earning chahte hain to Markaz App aur Fiverr aapko long-term stable income de sakte hain.</p>
+
+<p>Hammesha real reviews dekhein, scams se bachain, aur sirf trusted earning apps use karein.</p>
+
+<p>✨ Agar aap 2026 me online earning start karna chahte hain, ye 5 apps aapke liye perfect hain!</p>
+`,
+    category: "earning",
+    thumbnail: "images/blogs_images/earning_apps.png",
+    videoId: "https://youtu.be/Up9sem6LAEw?si=EYCXr6vrLj56ncvh",
+    publishedAt: new Date().toISOString(),
+    duration: "10:30",
+    viewCount: "1.5K",
+    likeCount: "150",
+    tags: ["earning apps 2026","pakistan earning apps","online earning pakistan","jazzcash apps","easypaisa earning","best earning apps","real earning apps pakistan"
+    ]
+}
+
+   ,{
     id: 2,
     title: "CM Punjab Green Tractor Scheme 2025 Phase 2 – Apply Online with 70% Subsidy",
     excerpt: "Punjab Government ne CM Punjab Green Tractor Scheme 2025 Phase 2 launch kar di hai jisme kisano ko 70% subsidy ke sath tractors provide kiye ja rahe hain. Is blog me eligibility, documents, apply process, subsidy details aur FAQs hain.",
@@ -1564,7 +1626,7 @@ git push -u origin main
     likeCount: "670",
     tags: ["body recomposition", "double body parts", "training guide", "fitness diet", "muscle gain", "fat loss", "workout plan"]
 }, {
-    id: 26,
+    id: 28,
     title: "Weekly Gym Workout Plan 2025 | Muscle Group Focused Training",
     excerpt: "Step-by-step weekly workout plan to target each muscle group effectively, including sets, reps, and optional cardio.",
     content: `<article class="blog-post">
